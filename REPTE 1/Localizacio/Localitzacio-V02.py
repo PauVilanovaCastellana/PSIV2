@@ -89,7 +89,6 @@ def recortar_imagen_con_coordenadas(image, coords):
     recorte = image[y1:y2, x1:x2]
     return recorte
 
-
 def extraer_canal_v(img_crop):
     """
     Convierte una imagen al espacio HSV, extrae solo el canal V y muestra la imagen resultante.
@@ -147,11 +146,11 @@ def procesar_y_enderezar_letras(img_crop):
     rect = cv2.minAreaRect(contornos_todos)
     angulo = rect[2]  # Este es el ángulo de inclinación del rectángulo que contiene las letras
     
-    # Ajustar el ángulo para que las letras queden completamente horizontales
-    if angulo < 15:
-        angulo= angulo
-    else:
-        angulo = 0  # Invertimos el ángulo para que quede horizontal
+    # Si el ángulo es negativo (hacia la izquierda), ajusta el ángulo correctamente
+    if angulo < -45:
+        angulo = 90 + angulo
+    elif angulo > 45:
+        angulo = angulo - 90
     
     # Calcular el centro de la imagen
     (h_img, w_img) = img_crop.shape[:2]
@@ -164,13 +163,11 @@ def procesar_y_enderezar_letras(img_crop):
     img_rotada = cv2.warpAffine(img_crop, M, (w_img, h_img), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE)
     
     # Mostrar la imagen rotada
-    cv2.imshow('Letras Enderezadas a 0 Grados', img_rotada)
+    cv2.imshow('Matricula Enderezada a 0 Grados', img_rotada)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
     
     return img_rotada
-    
-
 
 def resize_image(img, max_width=760, max_height=232):
     """
@@ -185,7 +182,7 @@ def resize_image(img, max_width=760, max_height=232):
 def main():
     # Configuración
     model_path = 'yolov5/runs/train/exp5/weights/best.pt'
-    img_path = '3.jpeg'
+    img_path = '12.jpeg'
 
     # Proceso
     model = load_model(model_path)
