@@ -195,7 +195,7 @@ def main():
     model_path = 'yolov5/runs/train/exp5/weights/best.pt'
     directorio_input = '.'  # Directorio actual
     directorio_output = 'imatges_matriculas'
-    margen = 50  # Definir el margen de 50 píxeles
+    margen = 60  # Definir el margen de 50 píxeles
 
     # Cargar el modelo solo una vez
     model = load_model(model_path)
@@ -223,7 +223,7 @@ def main():
                 coords = list(map(int, best_detection[:4]))
 
                 # Recortar la imagen usando las coordenadas sin margen
-                img_crop = recortar_imagen_con_coordenadas(img, coords)
+                img_crop = recortar_imagen_con_coordenadas(img, coords, 10)
 
                 # Procesar y enderezar las letras
                 img_enderezada = procesar_y_enderezar_letras(img_crop)
