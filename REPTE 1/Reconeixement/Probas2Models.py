@@ -128,16 +128,6 @@ plt.xlabel('Predicted')
 plt.ylabel('True')
 plt.show()
 
-
-# Matriz de confusión para letras (solo usando las letras permitidas)
-cm_letters = confusion_matrix(true_letters, predicted_letters_total, labels=allowed_letters)
-plt.figure(figsize=(10, 7))
-sns.heatmap(cm_letters, annot=True, fmt='d', cmap='Blues', xticklabels=allowed_letters, yticklabels=allowed_letters)
-plt.title('Confusion Matrix for Letters')
-plt.xlabel('Predicted')
-plt.ylabel('True')
-plt.show()
-
 # Reporte de clasificación para letras
 print('Classification Report for Letters:')
 print(classification_report(true_letters, predicted_letters_total, labels=allowed_letters))
