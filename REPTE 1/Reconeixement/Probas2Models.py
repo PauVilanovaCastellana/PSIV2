@@ -4,6 +4,9 @@ import numpy as np
 import pandas as pd
 import joblib
 from tensorflow.keras.models import load_model
+from sklearn.metrics import confusion_matrix, classification_report
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 # Función para cargar imágenes y preprocesarlas
 def preprocess_image(img_path, img_width, img_height):
@@ -37,10 +40,17 @@ letter_svm = joblib.load('letter_svm_classifier_model.keras')  # Clasificador SV
 # Leer el archivo CSV con las imágenes y matrículas
 df = pd.read_csv('matriculas.csv', sep=';')
 
-# Listas para almacenar los resultados de predicción y el % de aciertos
+# Definir las letras permitidas
+allowed_letters = list("ABCDEFGHJKLMNPRSTVWXYZ")
+
+# Listas para almacenar los resultados de predicción, etiquetas reales y el % de aciertos
 predicciones_totales = []
 aciertos_numeros = []
 aciertos_letras = []
+true_numbers = []
+true_letters = []
+predicted_numbers_total = []
+predicted_letters_total = []
 
 # Recorrer cada fila del CSV
 for index, row in df.iterrows():
@@ -72,6 +82,12 @@ for index, row in df.iterrows():
     prediccion_final = predicted_number_str + predicted_letter_str
     predicciones_totales.append(prediccion_final)
 
+    # Guardar los números y letras reales y predichos
+    true_numbers.extend(list(map(int, matricula_real[:4])))  # Números reales
+    true_letters.extend(list(matricula_real[4:]))  # Letras reales
+    predicted_numbers_total.extend(predicted_numbers)  # Números predichos
+    predicted_letters_total.extend(predicted_letters)  # Letras predichas
+
     # Calcular el % de acierto para los números y las letras
     accuracy_numbers = calculate_accuracy(predicted_numbers, list(map(int, matricula_real[:4])))  # Comparar los números
     accuracy_letters = calculate_accuracy(predicted_letters, list(matricula_real[4:]))  # Comparar las letras
@@ -90,7 +106,39 @@ df.to_csv('resultados_predicciones.csv', index=False)
 
 print('Predicciones realizadas y guardadas con éxito en resultados_predicciones.csv.')
 
+# Matriz de confusión para números
+cm_numbers = confusion_matrix(true_numbers, predicted_numbers_total)
+plt.figure(figsize=(10, 7))
+sns.heatmap(cm_numbers, annot=True, fmt='d', cmap='Blues')
+plt.title('Confusion Matrix for Numbers')
+plt.xlabel('Predicted')
+plt.ylabel('True')
+plt.show()
+
+# Reporte de clasificación para números
+print('Classification Report for Numbers:')
+print(classification_report(true_numbers, predicted_numbers_total))
+
+# Matriz de confusión para letras (solo usando las letras permitidas)
+cm_letters = confusion_matrix(true_letters, predicted_letters_total, labels=allowed_letters)
+plt.figure(figsize=(10, 7))
+sns.heatmap(cm_letters, annot=True, fmt='d', cmap='Blues', xticklabels=allowed_letters, yticklabels=allowed_letters)
+plt.title('Confusion Matrix for Letters')
+plt.xlabel('Predicted')
+plt.ylabel('True')
+plt.show()
 
 
+# Matriz de confusión para letras (solo usando las letras permitidas)
+cm_letters = confusion_matrix(true_letters, predicted_letters_total, labels=allowed_letters)
+plt.figure(figsize=(10, 7))
+sns.heatmap(cm_letters, annot=True, fmt='d', cmap='Blues', xticklabels=allowed_letters, yticklabels=allowed_letters)
+plt.title('Confusion Matrix for Letters')
+plt.xlabel('Predicted')
+plt.ylabel('True')
+plt.show()
 
+# Reporte de clasificación para letras
+print('Classification Report for Letters:')
+print(classification_report(true_letters, predicted_letters_total, labels=allowed_letters))
 
