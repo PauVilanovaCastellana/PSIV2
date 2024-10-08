@@ -1,6 +1,7 @@
 import os
 import cv2
 import numpy as np
+import matplotlib.pyplot as plt
 from tensorflow.keras.models import Sequential
 from tensorflow.keras import layers, regularizers
 from tensorflow.keras.utils import to_categorical
@@ -77,62 +78,24 @@ history = model.fit(datagen.flow(X_train, y_train, batch_size=32),
 # Guardar el modelo
 model.save('clasificador_numeros_33x47.keras')
 
+# Gráfica de precisión (accuracy)
+plt.figure(figsize=(8, 6))
+plt.plot(history.history['accuracy'], label='Train Accuracy')
+plt.plot(history.history['val_accuracy'], label='Validation Accuracy')
+plt.title('Precisión del modelo')
+plt.xlabel('Épocas')
+plt.ylabel('Precisión')
+plt.legend()
+plt.grid(True)
+plt.show()
 
-
-'''
-import os
-import cv2
-import numpy as np
-import tensorflow as tf
-from tensorflow.keras import layers, models
-
-# Ruta de la carpeta que contiene las imágenes
-data_dir = 'caracters'
-
-# Inicializa las listas para las imágenes y las etiquetas
-images = []
-labels = []
-
-# Cargar imágenes de las carpetas de números
-for folder in os.listdir(data_dir):
-    if folder.isdigit():  # Solo consideramos carpetas que son dígitos
-        folder_path = os.path.join(data_dir, folder)
-        for img_name in os.listdir(folder_path):
-            img_path = os.path.join(folder_path, img_name)
-            # Cargar la imagen
-            img = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)  # Cargar como imagen en escala de grises
-            img = cv2.resize(img, (28, 28))  # Redimensionar a 28x28 píxeles
-            images.append(img)
-            labels.append(int(folder))  # Convertir el nombre de la carpeta a entero
-
-# Convertir las listas a numpy arrays
-X = np.array(images)
-y = np.array(labels)
-
-# Normalizar las imágenes
-X = X.astype('float32') / 255.0  # Escalar los valores de los píxeles entre 0 y 1
-X = X.reshape(-1, 28, 28, 1)  # Añadir una dimensión para el canal
-
-# Definir el modelo de la red neuronal
-model = models.Sequential([
-    layers.Conv2D(32, (3, 3), activation='relu', input_shape=(28, 28, 1)),
-    layers.MaxPooling2D((2, 2)),
-    layers.Conv2D(64, (3, 3), activation='relu'),
-    layers.MaxPooling2D((2, 2)),
-    layers.Flatten(),
-    layers.Dense(64, activation='relu'),
-    layers.Dense(10, activation='softmax')  # 10 clases (0-9)
-])
-
-# Compilar el modelo
-model.compile(optimizer='adam',
-              loss='sparse_categorical_crossentropy',
-              metrics=['accuracy'])
-
-# Entrenar el modelo
-model.fit(X, y, epochs=10)
-
-# Guardar el modelo en formato Keras
-model.save('numeros_model.keras')
-print("Modelo guardado como 'numeros_model.keras'")
-'''
+# Gráfica de pérdida (loss)
+plt.figure(figsize=(8, 6))
+plt.plot(history.history['loss'], label='Train Loss')
+plt.plot(history.history['val_loss'], label='Validation Loss')
+plt.title('Pérdida del modelo')
+plt.xlabel('Épocas')
+plt.ylabel('Pérdida')
+plt.legend()
+plt.grid(True)
+plt.show()
