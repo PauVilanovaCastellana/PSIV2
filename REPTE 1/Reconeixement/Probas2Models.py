@@ -23,7 +23,7 @@ def predict_numbers(model, images):
 
 # Función para predecir letras
 def predict_letters(model, images):
-    images = np.array(images).reshape(-1, 28, 28, 1)  # Preprocesar imágenes para la red de letras
+    images = np.array(images).reshape(-1, 30, 30, 1)  # Preprocesar imágenes para la red de letras
     features = model.predict(images)  # Extraer características con la red de letras
     return np.argmax(features, axis=1)  # Predicción final con la SVM
 
@@ -71,10 +71,10 @@ for index, row in df.iterrows():
     for img_name in sorted(os.listdir(img_folder))[-3:]:  # Las últimas 3 imágenes
         img_path = os.path.join(img_folder, img_name)
         img = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)
-        img = cv2.resize(img, (28, 28))  # Preprocesar para el modelo de letras
+        img = cv2.resize(img, (30, 30))  # Preprocesar para el modelo de letras
         letter_images.append(img)
 
-    predicted_letter_features = letter_feature_extractor.predict(np.array(letter_images).reshape(-1, 28, 28, 1))
+    predicted_letter_features = letter_feature_extractor.predict(np.array(letter_images).reshape(-1, 30, 30, 1))
     predicted_letters = letter_svm.predict(predicted_letter_features)
     predicted_letter_str = ''.join(predicted_letters)
 
