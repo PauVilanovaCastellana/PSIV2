@@ -10,6 +10,7 @@ Aquest repositori conté els materials dels reptes corresponents a l'assignatura
 
 ## Contribuïdors
 Aquest treball ha estat desenvolupat pel **grup 1**:
+
     - Pau Vilanova: 1638223
     - Joel Bautista: 1605507
     - Eduard Ara: 1636341
