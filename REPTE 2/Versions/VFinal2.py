@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Oct 26 13:46:31 2024
-
-@author: eduar
-"""
-
 import time  # Importa el módulo time
 
 import cv2 as cv
