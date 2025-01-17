@@ -1,0 +1,731 @@
+LSTM LEAVE ONE OUT
+
+Starting Fold 1 with Test Patient: chb02
+Running class: EpilepsyLSTM
+Epoch 00014: reducing learning rate of group 0 to 1.0000e-04.
+Epoch 00020: reducing learning rate of group 0 to 1.0000e-05.
+Metrics for Fold 0 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    103746
+         1.0       1.00      1.00      1.00     11254
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 0 (Test):
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.99      0.99      4254
+         1.0       0.95      0.88      0.92       746
+
+    accuracy                           0.98      5000
+   macro avg       0.96      0.94      0.95      5000
+weighted avg       0.98      0.98      0.98      5000
+
+
+Starting Fold 2 with Test Patient: chb05
+Running class: EpilepsyLSTM
+Epoch 00018: reducing learning rate of group 0 to 1.0000e-04.
+Metrics for Fold 1 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    104591
+         1.0       1.00      1.00      1.00     10409
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 1 (Test):
+              precision    recall  f1-score   support
+
+         0.0       0.97      0.98      0.97      3409
+         1.0       0.95      0.93      0.94      1591
+
+    accuracy                           0.96      5000
+   macro avg       0.96      0.95      0.95      5000
+weighted avg       0.96      0.96      0.96      5000
+
+
+Starting Fold 3 with Test Patient: chb15
+Running class: EpilepsyLSTM
+Metrics for Fold 2 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    104001
+         1.0       1.00      1.00      1.00     10999
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 2 (Test):
+              precision    recall  f1-score   support
+
+         0.0       0.96      1.00      0.98      3999
+         1.0       1.00      0.84      0.91      1001
+
+    accuracy                           0.97      5000
+   macro avg       0.98      0.92      0.95      5000
+weighted avg       0.97      0.97      0.97      5000
+
+
+Starting Fold 4 with Test Patient: chb22
+Running class: EpilepsyLSTM
+Metrics for Fold 3 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    103465
+         1.0       1.00      1.00      1.00     11535
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 3 (Test):
+              precision    recall  f1-score   support
+
+         0.0       0.99      1.00      1.00      4535
+         1.0       1.00      0.91      0.95       465
+
+    accuracy                           0.99      5000
+   macro avg       1.00      0.96      0.97      5000
+weighted avg       0.99      0.99      0.99      5000
+
+
+Starting Fold 5 with Test Patient: chb08
+Running class: EpilepsyLSTM
+Epoch 00012: reducing learning rate of group 0 to 1.0000e-04.
+Epoch 00018: reducing learning rate of group 0 to 1.0000e-05.
+Metrics for Fold 4 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    104659
+         1.0       1.00      1.00      1.00     10341
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 4 (Test):
+              precision    recall  f1-score   support
+
+         0.0       0.92      1.00      0.96      3341
+         1.0       1.00      0.82      0.90      1659
+
+    accuracy                           0.94      5000
+   macro avg       0.96      0.91      0.93      5000
+weighted avg       0.95      0.94      0.94      5000
+
+
+Starting Fold 6 with Test Patient: chb17
+Running class: EpilepsyLSTM
+Epoch 00012: reducing learning rate of group 0 to 1.0000e-04.
+Epoch 00018: reducing learning rate of group 0 to 1.0000e-05.
+Metrics for Fold 5 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    103721
+         1.0       1.00      1.00      1.00     11279
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 5 (Test):
+              precision    recall  f1-score   support
+
+         0.0       0.99      1.00      0.99      4279
+         1.0       1.00      0.94      0.97       721
+
+    accuracy                           0.99      5000
+   macro avg       0.99      0.97      0.98      5000
+weighted avg       0.99      0.99      0.99      5000
+
+
+Starting Fold 7 with Test Patient: chb16
+Running class: EpilepsyLSTM
+Epoch 00009: reducing learning rate of group 0 to 1.0000e-04.
+Epoch 00015: reducing learning rate of group 0 to 1.0000e-05.
+Metrics for Fold 6 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    103073
+         1.0       1.00      1.00      1.00     11927
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 6 (Test):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00      4927
+         1.0       1.00      0.77      0.87        73
+
+    accuracy                           1.00      5000
+   macro avg       1.00      0.88      0.93      5000
+weighted avg       1.00      1.00      1.00      5000
+
+
+Starting Fold 8 with Test Patient: chb03
+Running class: EpilepsyLSTM
+Epoch 00016: reducing learning rate of group 0 to 1.0000e-04.
+Metrics for Fold 7 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    103417
+         1.0       1.00      1.00      1.00     11583
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 7 (Test):
+              precision    recall  f1-score   support
+
+         0.0       0.99      1.00      1.00      4583
+         1.0       1.00      0.92      0.96       417
+
+    accuracy                           0.99      5000
+   macro avg       1.00      0.96      0.98      5000
+weighted avg       0.99      0.99      0.99      5000
+
+
+Starting Fold 9 with Test Patient: chb21
+Running class: EpilepsyLSTM
+Metrics for Fold 8 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    103449
+         1.0       1.00      1.00      1.00     11551
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 8 (Test):
+              precision    recall  f1-score   support
+
+         0.0       0.99      1.00      1.00      4551
+         1.0       1.00      0.92      0.96       449
+
+    accuracy                           0.99      5000
+   macro avg       1.00      0.96      0.98      5000
+weighted avg       0.99      0.99      0.99      5000
+
+
+Starting Fold 10 with Test Patient: chb14
+Running class: EpilepsyLSTM
+Epoch 00017: reducing learning rate of group 0 to 1.0000e-04.
+Metrics for Fold 9 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    103113
+         1.0       1.00      1.00      1.00     11887
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 9 (Test):
+              precision    recall  f1-score   support
+
+         0.0       0.99      1.00      1.00      4887
+         1.0       0.99      0.66      0.79       113
+
+    accuracy                           0.99      5000
+   macro avg       0.99      0.83      0.89      5000
+weighted avg       0.99      0.99      0.99      5000
+
+
+Starting Fold 11 with Test Patient: chb19
+Running class: EpilepsyLSTM
+Epoch 00014: reducing learning rate of group 0 to 1.0000e-04.
+Epoch 00020: reducing learning rate of group 0 to 1.0000e-05.
+Metrics for Fold 10 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    103625
+         1.0       1.00      1.00      1.00     11375
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 10 (Test):
+              precision    recall  f1-score   support
+
+         0.0       0.97      1.00      0.98      4375
+         1.0       0.96      0.78      0.86       625
+
+    accuracy                           0.97      5000
+   macro avg       0.96      0.89      0.92      5000
+weighted avg       0.97      0.97      0.97      5000
+
+
+Starting Fold 12 with Test Patient: chb24
+Running class: EpilepsyLSTM
+Epoch 00018: reducing learning rate of group 0 to 1.0000e-04.
+Metrics for Fold 11 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    103393
+         1.0       1.00      1.00      1.00     11607
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 11 (Test):
+              precision    recall  f1-score   support
+
+         0.0       0.99      0.99      0.99      4607
+         1.0       0.92      0.91      0.92       393
+
+    accuracy                           0.99      5000
+   macro avg       0.96      0.95      0.95      5000
+weighted avg       0.99      0.99      0.99      5000
+
+
+Starting Fold 13 with Test Patient: chb10
+Running class: EpilepsyLSTM
+Epoch 00012: reducing learning rate of group 0 to 1.0000e-04.
+Epoch 00018: reducing learning rate of group 0 to 1.0000e-05.
+Metrics for Fold 12 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    103281
+         1.0       1.00      1.00      1.00     11719
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 12 (Test):
+              precision    recall  f1-score   support
+
+         0.0       0.99      1.00      1.00      4719
+         1.0       0.99      0.91      0.95       281
+
+    accuracy                           0.99      5000
+   macro avg       0.99      0.96      0.97      5000
+weighted avg       0.99      0.99      0.99      5000
+
+
+Starting Fold 14 with Test Patient: chb06
+Running class: EpilepsyLSTM
+Epoch 00010: reducing learning rate of group 0 to 1.0000e-04.
+Metrics for Fold 13 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    103000
+         1.0       1.00      1.00      1.00     12000
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 13 (Test):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00      5000
+         1.0       0.00      0.00      0.00         0
+
+    accuracy                           1.00      5000
+   macro avg       0.50      0.50      0.50      5000
+weighted avg       1.00      1.00      1.00      5000
+
+
+Starting Fold 15 with Test Patient: chb01
+Running class: EpilepsyLSTM
+Epoch 00012: reducing learning rate of group 0 to 1.0000e-04.
+Epoch 00018: reducing learning rate of group 0 to 1.0000e-05.
+Metrics for Fold 14 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    103321
+         1.0       1.00      1.00      1.00     11679
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 14 (Test):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00      4679
+         1.0       0.99      0.93      0.96       321
+
+    accuracy                           1.00      5000
+   macro avg       0.99      0.97      0.98      5000
+weighted avg       1.00      1.00      1.00      5000
+
+
+Starting Fold 16 with Test Patient: chb11
+Running class: EpilepsyLSTM
+Epoch 00016: reducing learning rate of group 0 to 1.0000e-04.
+Metrics for Fold 15 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    103492
+         1.0       1.00      1.00      1.00     11508
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 15 (Test):
+              precision    recall  f1-score   support
+
+         0.0       0.99      1.00      1.00      4508
+         1.0       1.00      0.92      0.95       492
+
+    accuracy                           0.99      5000
+   macro avg       0.99      0.96      0.97      5000
+weighted avg       0.99      0.99      0.99      5000
+
+
+Starting Fold 17 with Test Patient: chb04
+Running class: EpilepsyLSTM
+Epoch 00008: reducing learning rate of group 0 to 1.0000e-04.
+Epoch 00014: reducing learning rate of group 0 to 1.0000e-05.
+Epoch 00020: reducing learning rate of group 0 to 1.0000e-06.
+Metrics for Fold 16 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    103296
+         1.0       1.00      1.00      1.00     11704
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 16 (Test):
+              precision    recall  f1-score   support
+
+         0.0       0.99      1.00      1.00      4704
+         1.0       0.99      0.89      0.94       296
+
+    accuracy                           0.99      5000
+   macro avg       0.99      0.94      0.97      5000
+weighted avg       0.99      0.99      0.99      5000
+
+
+Starting Fold 18 with Test Patient: chb20
+Running class: EpilepsyLSTM
+Metrics for Fold 17 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    103233
+         1.0       1.00      1.00      1.00     11767
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 17 (Test):
+              precision    recall  f1-score   support
+
+         0.0       0.99      1.00      0.99      4767
+         1.0       0.99      0.75      0.85       233
+
+    accuracy                           0.99      5000
+   macro avg       0.99      0.87      0.92      5000
+weighted avg       0.99      0.99      0.99      5000
+
+
+Starting Fold 19 with Test Patient: chb23
+Running class: EpilepsyLSTM
+Metrics for Fold 18 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    103000
+         1.0       1.00      1.00      1.00     12000
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 18 (Test):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00      5000
+
+    accuracy                           1.00      5000
+   macro avg       1.00      1.00      1.00      5000
+weighted avg       1.00      1.00      1.00      5000
+
+
+Starting Fold 20 with Test Patient: chb09
+Running class: EpilepsyLSTM
+Epoch 00014: reducing learning rate of group 0 to 1.0000e-04.
+Epoch 00020: reducing learning rate of group 0 to 1.0000e-05.
+Metrics for Fold 19 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    103000
+         1.0       1.00      1.00      1.00     12000
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 19 (Test):
+              precision    recall  f1-score   support
+
+         0.0       1.00      0.99      0.99      5000
+         1.0       0.00      0.00      0.00         0
+
+    accuracy                           0.99      5000
+   macro avg       0.50      0.49      0.50      5000
+weighted avg       1.00      0.99      0.99      5000
+
+
+Starting Fold 21 with Test Patient: chb12
+Running class: EpilepsyLSTM
+Epoch 00017: reducing learning rate of group 0 to 1.0000e-04.
+Metrics for Fold 20 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    104370
+         1.0       1.00      1.00      1.00     10630
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 20 (Test):
+              precision    recall  f1-score   support
+
+         0.0       0.95      1.00      0.97      3630
+         1.0       0.99      0.85      0.91      1370
+
+    accuracy                           0.96      5000
+   macro avg       0.97      0.92      0.94      5000
+weighted avg       0.96      0.96      0.96      5000
+
+
+Starting Fold 22 with Test Patient: chb13
+Running class: EpilepsyLSTM
+Metrics for Fold 21 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    103353
+         1.0       1.00      1.00      1.00     11647
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 21 (Test):
+              precision    recall  f1-score   support
+
+         0.0       0.99      1.00      0.99      4647
+         1.0       0.96      0.85      0.91       353
+
+    accuracy                           0.99      5000
+   macro avg       0.98      0.93      0.95      5000
+weighted avg       0.99      0.99      0.99      5000
+
+
+Starting Fold 23 with Test Patient: chb07
+Running class: EpilepsyLSTM
+Epoch 00016: reducing learning rate of group 0 to 1.0000e-04.
+Metrics for Fold 22 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    103000
+         1.0       1.00      1.00      1.00     12000
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 22 (Test):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00      5000
+
+    accuracy                           1.00      5000
+   macro avg       1.00      1.00      1.00      5000
+weighted avg       1.00      1.00      1.00      5000
+
+
+Starting Fold 24 with Test Patient: chb18
+Running class: EpilepsyLSTM
+Epoch 00014: reducing learning rate of group 0 to 1.0000e-04.
+Epoch 00020: reducing learning rate of group 0 to 1.0000e-05.
+Metrics for Fold 23 (Train):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00    103401
+         1.0       1.00      1.00      1.00     11599
+
+    accuracy                           1.00    115000
+   macro avg       1.00      1.00      1.00    115000
+weighted avg       1.00      1.00      1.00    115000
+
+Metrics for Fold 23 (Test):
+              precision    recall  f1-score   support
+
+         0.0       0.99      1.00      1.00      4599
+         1.0       0.96      0.93      0.95       401
+
+    accuracy                           0.99      5000
+   macro avg       0.98      0.96      0.97      5000
+weighted avg       0.99      0.99      0.99      5000
+
+[{'0.0': {'precision': 0.9800232288037166, 'recall': 0.9917724494593324, 'f1-score': 0.9858628344432762, 'support': 4254.0}, '1.0': {'precision': 0.9496402877697842, 'recall': 0.8847184986595175, 'f1-score': 0.9160305343511451, 'support': 746.0}, 'accuracy': 0.9758, 'macro avg': {'precision': 0.9648317582867504, 'recall': 0.9382454740594249, 'f1-score': 0.9509466843972106, 'support': 5000.0}, 'weighted avg': {'precision': 0.9754900940014539, 'recall': 0.9758, 'f1-score': 0.9754438552695301, 'support': 5000.0}}, {'0.0': {'precision': 0.9674229203025014, 'recall': 0.9756526840715752, 'f1-score': 0.9715203738863737, 'support': 3409.0}, '1.0': {'precision': 0.9468629961587708, 'recall': 0.9296040226272785, 'f1-score': 0.9381541389153187, 'support': 1591.0}, 'accuracy': 0.961, 'macro avg': {'precision': 0.9571429582306361, 'recall': 0.9526283533494269, 'f1-score': 0.9548372564008463, 'support': 5000.0}, 'weighted avg': {'precision': 0.9608807524399663, 'recall': 0.961, 'f1-score': 0.9609032379185839, 'support': 5000.0}}, {'0.0': {'precision': 0.9617328519855596, 'recall': 0.9992498124531133, 'f1-score': 0.9801324503311257, 'support': 3999.0}, '1.0': {'precision': 0.9964497041420118, 'recall': 0.8411588411588412, 'f1-score': 0.9122426868905743, 'support': 1001.0}, 'accuracy': 0.9676, 'macro avg': {'precision': 0.9790912780637857, 'recall': 0.9202043268059772, 'f1-score': 0.9461875686108501, 'support': 5000.0}, 'weighted avg': {'precision': 0.9686831657872813, 'recall': 0.9676, 'f1-score': 0.9665409196903274, 'support': 5000.0}}, {'0.0': {'precision': 0.9910402097902098, 'recall': 1.0, 'f1-score': 0.9954999451212819, 'support': 4535.0}, '1.0': {'precision': 1.0, 'recall': 0.9118279569892473, 'f1-score': 0.953880764904387, 'support': 465.0}, 'accuracy': 0.9918, 'macro avg': {'precision': 0.9955201048951049, 'recall': 0.9559139784946237, 'f1-score': 0.9746903550128345, 'support': 5000.0}, 'weighted avg': {'precision': 0.9918734702797203, 'recall': 0.9918, 'f1-score': 0.9916293613611108, 'support': 5000.0}}, {'0.0': {'precision': 0.9186142425075612, 'recall': 1.0, 'f1-score': 0.9575809687589567, 'support': 3341.0}, '1.0': {'precision': 1.0, 'recall': 0.8215792646172393, 'f1-score': 0.9020516214427532, 'support': 1659.0}, 'accuracy': 0.9408, 'macro avg': {'precision': 0.9593071212537806, 'recall': 0.9107896323086196, 'f1-score': 0.929816295100855, 'support': 5000.0}, 'weighted avg': {'precision': 0.9456180368435524, 'recall': 0.9408, 'f1-score': 0.9391563313194403, 'support': 5000.0}}, {'0.0': {'precision': 0.9900485998611432, 'recall': 0.9997663005375088, 'f1-score': 0.9948837209302326, 'support': 4279.0}, '1.0': {'precision': 0.9985272459499264, 'recall': 0.9403606102635229, 'f1-score': 0.9685714285714286, 'support': 721.0}, 'accuracy': 0.9912, 'macro avg': {'precision': 0.9942879229055348, 'recall': 0.9700634554005159, 'f1-score': 0.9817275747508306, 'support': 5000.0}, 'weighted avg': {'precision': 0.9912712206271459, 'recall': 0.9912, 'f1-score': 0.991089488372093, 'support': 5000.0}}, {'0.0': {'precision': 0.9965614886731392, 'recall': 1.0, 'f1-score': 0.9982777834059366, 'support': 4927.0}, '1.0': {'precision': 1.0, 'recall': 0.7671232876712328, 'f1-score': 0.8682170542635659, 'support': 73.0}, 'accuracy': 0.9966, 'macro avg': {'precision': 0.9982807443365695, 'recall': 0.8835616438356164, 'f1-score': 0.9332474188347513, 'support': 5000.0}, 'weighted avg': {'precision': 0.9966116909385113, 'recall': 0.9966, 'f1-score': 0.996378896760458, 'support': 5000.0}}, {'0.0': {'precision': 0.9926359107645657, 'recall': 1.0, 'f1-score': 0.9963043478260869, 'support': 4583.0}, '1.0': {'precision': 1.0, 'recall': 0.9184652278177458, 'f1-score': 0.9574999999999999, 'support': 417.0}, 'accuracy': 0.9932, 'macro avg': {'precision': 0.9963179553822828, 'recall': 0.9592326139088729, 'f1-score': 0.9769021739130435, 'support': 5000.0}, 'weighted avg': {'precision': 0.9932500758068008, 'recall': 0.9932, 'f1-score': 0.9930680652173912, 'support': 5000.0}}, {'0.0': {'precision': 0.9921517331589274, 'recall': 1.0, 'f1-score': 0.9960604070912672, 'support': 4551.0}, '1.0': {'precision': 1.0, 'recall': 0.9198218262806236, 'f1-score': 0.9582366589327146, 'support': 449.0}, 'accuracy': 0.9928, 'macro avg': {'precision': 0.9960758665794637, 'recall': 0.9599109131403119, 'f1-score': 0.9771485330119909, 'support': 5000.0}, 'weighted avg': {'precision': 0.9928565075212556, 'recall': 0.9928, 'f1-score': 0.9926638345066291, 'support': 5000.0}}, {'0.0': {'precision': 0.9922826969943136, 'recall': 0.9997953754859832, 'f1-score': 0.9960248700438283, 'support': 4887.0}, '1.0': {'precision': 0.9868421052631579, 'recall': 0.6637168141592921, 'f1-score': 0.7936507936507936, 'support': 113.0}, 'accuracy': 0.9922, 'macro avg': {'precision': 0.9895624011287357, 'recall': 0.8317560948226377, 'f1-score': 0.8948378318473109, 'support': 5000.0}, 'weighted avg': {'precision': 0.9921597396211895, 'recall': 0.9922, 'f1-score': 0.9914512159173456, 'support': 5000.0}}, {'0.0': {'precision': 0.9697104677060133, 'recall': 0.9952, 'f1-score': 0.9822899041173153, 'support': 4375.0}, '1.0': {'precision': 0.9588235294117647, 'recall': 0.7824, 'f1-score': 0.8616740088105727, 'support': 625.0}, 'accuracy': 0.9686, 'macro avg': {'precision': 0.964266998558889, 'recall': 0.8888, 'f1-score': 0.921981956463944, 'support': 5000.0}, 'weighted avg': {'precision': 0.9683496004192322, 'recall': 0.9686, 'f1-score': 0.9672129172039724, 'support': 5000.0}}, {'0.0': {'precision': 0.992195967916757, 'recall': 0.9934881701758194, 'f1-score': 0.9928416485900217, 'support': 4607.0}, '1.0': {'precision': 0.9224806201550387, 'recall': 0.9083969465648855, 'f1-score': 0.9153846153846152, 'support': 393.0}, 'accuracy': 0.9868, 'macro avg': {'precision': 0.9573382940358979, 'recall': 0.9509425583703524, 'f1-score': 0.9541131319873184, 'support': 5000.0}, 'weighted avg': {'precision': 0.9867163415826861, 'recall': 0.9868, 'f1-score': 0.9867535257800768, 'support': 5000.0}}, {'0.0': {'precision': 0.9949367088607595, 'recall': 0.9993642720915448, 'f1-score': 0.9971455756422454, 'support': 4719.0}, '1.0': {'precision': 0.9884615384615385, 'recall': 0.9145907473309609, 'f1-score': 0.9500924214417745, 'support': 281.0}, 'accuracy': 0.9946, 'macro avg': {'precision': 0.991699123661149, 'recall': 0.9569775097112528, 'f1-score': 0.97361899854201, 'support': 5000.0}, 'weighted avg': {'precision': 0.9945728042843232, 'recall': 0.9946, 'f1-score': 0.9945011883761788, 'support': 5000.0}}, {'0.0': {'precision': 1.0, 'recall': 0.9996, 'f1-score': 0.9997999599919984, 'support': 5000.0}, '1.0': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, 'accuracy': 0.9996, 'macro avg': {'precision': 0.5, 'recall': 0.4998, 'f1-score': 0.4998999799959992, 'support': 5000.0}, 'weighted avg': {'precision': 1.0, 'recall': 0.9996, 'f1-score': 0.9997999599919983, 'support': 5000.0}}, {'0.0': {'precision': 0.9955300127713921, 'recall': 0.99957255823894, 'f1-score': 0.9975471899328144, 'support': 4679.0}, '1.0': {'precision': 0.9933774834437086, 'recall': 0.9345794392523364, 'f1-score': 0.9630818619582665, 'support': 321.0}, 'accuracy': 0.9954, 'macro avg': {'precision': 0.9944537481075504, 'recall': 0.9670759987456382, 'f1-score': 0.9803145259455405, 'support': 5000.0}, 'weighted avg': {'precision': 0.9953918203885547, 'recall': 0.9954, 'f1-score': 0.9953345158768485, 'support': 5000.0}}, {'0.0': {'precision': 0.9909830657576424, 'recall': 0.9995563442768411, 'f1-score': 0.9952512424075097, 'support': 4508.0}, '1.0': {'precision': 0.9955849889624724, 'recall': 0.9166666666666666, 'f1-score': 0.9544973544973545, 'support': 492.0}, 'accuracy': 0.9914, 'macro avg': {'precision': 0.9932840273600574, 'recall': 0.9581115054717539, 'f1-score': 0.9748742984524321, 'support': 5000.0}, 'weighted avg': {'precision': 0.9914358950009977, 'recall': 0.9914, 'f1-score': 0.9912410598371505, 'support': 5000.0}}, {'0.0': {'precision': 0.9928209459459459, 'recall': 0.9995748299319728, 'f1-score': 0.9961864406779661, 'support': 4704.0}, '1.0': {'precision': 0.9924242424242424, 'recall': 0.8851351351351351, 'f1-score': 0.9357142857142857, 'support': 296.0}, 'accuracy': 0.9928, 'macro avg': {'precision': 0.9926225941850941, 'recall': 0.942354982533554, 'f1-score': 0.9659503631961259, 'support': 5000.0}, 'weighted avg': {'precision': 0.9927974610974613, 'recall': 0.9928, 'f1-score': 0.9926064891041164, 'support': 5000.0}}, {'0.0': {'precision': 0.9877720207253886, 'recall': 0.999790224459828, 'f1-score': 0.9937447873227689, 'support': 4767.0}, '1.0': {'precision': 0.9942857142857143, 'recall': 0.7467811158798283, 'f1-score': 0.8529411764705883, 'support': 233.0}, 'accuracy': 0.988, 'macro avg': {'precision': 0.9910288675055514, 'recall': 0.8732856701698282, 'f1-score': 0.9233429818966786, 'support': 5000.0}, 'weighted avg': {'precision': 0.9880755588452997, 'recall': 0.988, 'f1-score': 0.9871833390570574, 'support': 5000.0}}, {'0.0': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5000.0}, 'accuracy': 1.0, 'macro avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5000.0}, 'weighted avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5000.0}}, {'0.0': {'precision': 1.0, 'recall': 0.989, 'f1-score': 0.9944695827048768, 'support': 5000.0}, '1.0': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, 'accuracy': 0.989, 'macro avg': {'precision': 0.5, 'recall': 0.4945, 'f1-score': 0.4972347913524384, 'support': 5000.0}, 'weighted avg': {'precision': 1.0, 'recall': 0.989, 'f1-score': 0.9944695827048768, 'support': 5000.0}}, {'0.0': {'precision': 0.9463491232661607, 'recall': 0.9961432506887052, 'f1-score': 0.970607972084284, 'support': 3630.0}, '1.0': {'precision': 0.9881255301102629, 'recall': 0.8503649635036497, 'f1-score': 0.9140839544919576, 'support': 1370.0}, 'accuracy': 0.9562, 'macro avg': {'precision': 0.9672373266882118, 'recall': 0.9232541070961775, 'f1-score': 0.9423459632881208, 'support': 5000.0}, 'weighted avg': {'precision': 0.9577958587414447, 'recall': 0.9562, 'f1-score': 0.9551203912639865, 'support': 5000.0}}, {'0.0': {'precision': 0.9889078498293515, 'recall': 0.9976328814288788, 'f1-score': 0.9932512051419389, 'support': 4647.0}, '1.0': {'precision': 0.9647435897435898, 'recall': 0.8526912181303116, 'f1-score': 0.9052631578947368, 'support': 353.0}, 'accuracy': 0.9874, 'macro avg': {'precision': 0.9768257197864707, 'recall': 0.9251620497795952, 'f1-score': 0.9492571815183378, 'support': 5000.0}, 'weighted avg': {'precision': 0.9872018530672967, 'recall': 0.9874, 'f1-score': 0.9870392490062865, 'support': 5000.0}}, {'0.0': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5000.0}, 'accuracy': 1.0, 'macro avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5000.0}, 'weighted avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5000.0}}, {'0.0': {'precision': 0.993714781100997, 'recall': 0.9969558599695586, 'f1-score': 0.9953326820796701, 'support': 4599.0}, '1.0': {'precision': 0.9637305699481865, 'recall': 0.9276807980049875, 'f1-score': 0.9453621346886912, 'support': 401.0}, 'accuracy': 0.9914, 'macro avg': {'precision': 0.9787226755245917, 'recall': 0.962318328987273, 'f1-score': 0.9703474083841807, 'support': 5000.0}, 'weighted avg': {'precision': 0.9913100473665416, 'recall': 0.9914, 'f1-score': 0.9913250441789137, 'support': 5000.0}}]
+Fold metrics: {'0.0': {'precision': 0.9800232288037166, 'recall': 0.9917724494593324, 'f1-score': 0.9858628344432762, 'support': 4254.0}, '1.0': {'precision': 0.9496402877697842, 'recall': 0.8847184986595175, 'f1-score': 0.9160305343511451, 'support': 746.0}, 'accuracy': 0.9758, 'macro avg': {'precision': 0.9648317582867504, 'recall': 0.9382454740594249, 'f1-score': 0.9509466843972106, 'support': 5000.0}, 'weighted avg': {'precision': 0.9754900940014539, 'recall': 0.9758, 'f1-score': 0.9754438552695301, 'support': 5000.0}}
+Type: <class 'dict'>
+0.0 {'0.0': {'precision': 0.9800232288037166, 'recall': 0.9917724494593324, 'f1-score': 0.9858628344432762, 'support': 4254.0}, '1.0': {'precision': 0.9496402877697842, 'recall': 0.8847184986595175, 'f1-score': 0.9160305343511451, 'support': 746.0}, 'accuracy': 0.9758, 'macro avg': {'precision': 0.9648317582867504, 'recall': 0.9382454740594249, 'f1-score': 0.9509466843972106, 'support': 5000.0}, 'weighted avg': {'precision': 0.9754900940014539, 'recall': 0.9758, 'f1-score': 0.9754438552695301, 'support': 5000.0}} precision
+0.0 {'0.0': {'precision': 0.9800232288037166, 'recall': 0.9917724494593324, 'f1-score': 0.9858628344432762, 'support': 4254.0}, '1.0': {'precision': 0.9496402877697842, 'recall': 0.8847184986595175, 'f1-score': 0.9160305343511451, 'support': 746.0}, 'accuracy': 0.9758, 'macro avg': {'precision': 0.9648317582867504, 'recall': 0.9382454740594249, 'f1-score': 0.9509466843972106, 'support': 5000.0}, 'weighted avg': {'precision': 0.9754900940014539, 'recall': 0.9758, 'f1-score': 0.9754438552695301, 'support': 5000.0}} recall
+0.0 {'0.0': {'precision': 0.9800232288037166, 'recall': 0.9917724494593324, 'f1-score': 0.9858628344432762, 'support': 4254.0}, '1.0': {'precision': 0.9496402877697842, 'recall': 0.8847184986595175, 'f1-score': 0.9160305343511451, 'support': 746.0}, 'accuracy': 0.9758, 'macro avg': {'precision': 0.9648317582867504, 'recall': 0.9382454740594249, 'f1-score': 0.9509466843972106, 'support': 5000.0}, 'weighted avg': {'precision': 0.9754900940014539, 'recall': 0.9758, 'f1-score': 0.9754438552695301, 'support': 5000.0}} f1-score
+1.0 {'0.0': {'precision': 0.9800232288037166, 'recall': 0.9917724494593324, 'f1-score': 0.9858628344432762, 'support': 4254.0}, '1.0': {'precision': 0.9496402877697842, 'recall': 0.8847184986595175, 'f1-score': 0.9160305343511451, 'support': 746.0}, 'accuracy': 0.9758, 'macro avg': {'precision': 0.9648317582867504, 'recall': 0.9382454740594249, 'f1-score': 0.9509466843972106, 'support': 5000.0}, 'weighted avg': {'precision': 0.9754900940014539, 'recall': 0.9758, 'f1-score': 0.9754438552695301, 'support': 5000.0}} precision
+1.0 {'0.0': {'precision': 0.9800232288037166, 'recall': 0.9917724494593324, 'f1-score': 0.9858628344432762, 'support': 4254.0}, '1.0': {'precision': 0.9496402877697842, 'recall': 0.8847184986595175, 'f1-score': 0.9160305343511451, 'support': 746.0}, 'accuracy': 0.9758, 'macro avg': {'precision': 0.9648317582867504, 'recall': 0.9382454740594249, 'f1-score': 0.9509466843972106, 'support': 5000.0}, 'weighted avg': {'precision': 0.9754900940014539, 'recall': 0.9758, 'f1-score': 0.9754438552695301, 'support': 5000.0}} recall
+1.0 {'0.0': {'precision': 0.9800232288037166, 'recall': 0.9917724494593324, 'f1-score': 0.9858628344432762, 'support': 4254.0}, '1.0': {'precision': 0.9496402877697842, 'recall': 0.8847184986595175, 'f1-score': 0.9160305343511451, 'support': 746.0}, 'accuracy': 0.9758, 'macro avg': {'precision': 0.9648317582867504, 'recall': 0.9382454740594249, 'f1-score': 0.9509466843972106, 'support': 5000.0}, 'weighted avg': {'precision': 0.9754900940014539, 'recall': 0.9758, 'f1-score': 0.9754438552695301, 'support': 5000.0}} f1-score
+Fold metrics: {'0.0': {'precision': 0.9674229203025014, 'recall': 0.9756526840715752, 'f1-score': 0.9715203738863737, 'support': 3409.0}, '1.0': {'precision': 0.9468629961587708, 'recall': 0.9296040226272785, 'f1-score': 0.9381541389153187, 'support': 1591.0}, 'accuracy': 0.961, 'macro avg': {'precision': 0.9571429582306361, 'recall': 0.9526283533494269, 'f1-score': 0.9548372564008463, 'support': 5000.0}, 'weighted avg': {'precision': 0.9608807524399663, 'recall': 0.961, 'f1-score': 0.9609032379185839, 'support': 5000.0}}
+Type: <class 'dict'>
+0.0 {'0.0': {'precision': 0.9674229203025014, 'recall': 0.9756526840715752, 'f1-score': 0.9715203738863737, 'support': 3409.0}, '1.0': {'precision': 0.9468629961587708, 'recall': 0.9296040226272785, 'f1-score': 0.9381541389153187, 'support': 1591.0}, 'accuracy': 0.961, 'macro avg': {'precision': 0.9571429582306361, 'recall': 0.9526283533494269, 'f1-score': 0.9548372564008463, 'support': 5000.0}, 'weighted avg': {'precision': 0.9608807524399663, 'recall': 0.961, 'f1-score': 0.9609032379185839, 'support': 5000.0}} precision
+0.0 {'0.0': {'precision': 0.9674229203025014, 'recall': 0.9756526840715752, 'f1-score': 0.9715203738863737, 'support': 3409.0}, '1.0': {'precision': 0.9468629961587708, 'recall': 0.9296040226272785, 'f1-score': 0.9381541389153187, 'support': 1591.0}, 'accuracy': 0.961, 'macro avg': {'precision': 0.9571429582306361, 'recall': 0.9526283533494269, 'f1-score': 0.9548372564008463, 'support': 5000.0}, 'weighted avg': {'precision': 0.9608807524399663, 'recall': 0.961, 'f1-score': 0.9609032379185839, 'support': 5000.0}} recall
+0.0 {'0.0': {'precision': 0.9674229203025014, 'recall': 0.9756526840715752, 'f1-score': 0.9715203738863737, 'support': 3409.0}, '1.0': {'precision': 0.9468629961587708, 'recall': 0.9296040226272785, 'f1-score': 0.9381541389153187, 'support': 1591.0}, 'accuracy': 0.961, 'macro avg': {'precision': 0.9571429582306361, 'recall': 0.9526283533494269, 'f1-score': 0.9548372564008463, 'support': 5000.0}, 'weighted avg': {'precision': 0.9608807524399663, 'recall': 0.961, 'f1-score': 0.9609032379185839, 'support': 5000.0}} f1-score
+1.0 {'0.0': {'precision': 0.9674229203025014, 'recall': 0.9756526840715752, 'f1-score': 0.9715203738863737, 'support': 3409.0}, '1.0': {'precision': 0.9468629961587708, 'recall': 0.9296040226272785, 'f1-score': 0.9381541389153187, 'support': 1591.0}, 'accuracy': 0.961, 'macro avg': {'precision': 0.9571429582306361, 'recall': 0.9526283533494269, 'f1-score': 0.9548372564008463, 'support': 5000.0}, 'weighted avg': {'precision': 0.9608807524399663, 'recall': 0.961, 'f1-score': 0.9609032379185839, 'support': 5000.0}} precision
+1.0 {'0.0': {'precision': 0.9674229203025014, 'recall': 0.9756526840715752, 'f1-score': 0.9715203738863737, 'support': 3409.0}, '1.0': {'precision': 0.9468629961587708, 'recall': 0.9296040226272785, 'f1-score': 0.9381541389153187, 'support': 1591.0}, 'accuracy': 0.961, 'macro avg': {'precision': 0.9571429582306361, 'recall': 0.9526283533494269, 'f1-score': 0.9548372564008463, 'support': 5000.0}, 'weighted avg': {'precision': 0.9608807524399663, 'recall': 0.961, 'f1-score': 0.9609032379185839, 'support': 5000.0}} recall
+1.0 {'0.0': {'precision': 0.9674229203025014, 'recall': 0.9756526840715752, 'f1-score': 0.9715203738863737, 'support': 3409.0}, '1.0': {'precision': 0.9468629961587708, 'recall': 0.9296040226272785, 'f1-score': 0.9381541389153187, 'support': 1591.0}, 'accuracy': 0.961, 'macro avg': {'precision': 0.9571429582306361, 'recall': 0.9526283533494269, 'f1-score': 0.9548372564008463, 'support': 5000.0}, 'weighted avg': {'precision': 0.9608807524399663, 'recall': 0.961, 'f1-score': 0.9609032379185839, 'support': 5000.0}} f1-score
+Fold metrics: {'0.0': {'precision': 0.9617328519855596, 'recall': 0.9992498124531133, 'f1-score': 0.9801324503311257, 'support': 3999.0}, '1.0': {'precision': 0.9964497041420118, 'recall': 0.8411588411588412, 'f1-score': 0.9122426868905743, 'support': 1001.0}, 'accuracy': 0.9676, 'macro avg': {'precision': 0.9790912780637857, 'recall': 0.9202043268059772, 'f1-score': 0.9461875686108501, 'support': 5000.0}, 'weighted avg': {'precision': 0.9686831657872813, 'recall': 0.9676, 'f1-score': 0.9665409196903274, 'support': 5000.0}}
+Type: <class 'dict'>
+0.0 {'0.0': {'precision': 0.9617328519855596, 'recall': 0.9992498124531133, 'f1-score': 0.9801324503311257, 'support': 3999.0}, '1.0': {'precision': 0.9964497041420118, 'recall': 0.8411588411588412, 'f1-score': 0.9122426868905743, 'support': 1001.0}, 'accuracy': 0.9676, 'macro avg': {'precision': 0.9790912780637857, 'recall': 0.9202043268059772, 'f1-score': 0.9461875686108501, 'support': 5000.0}, 'weighted avg': {'precision': 0.9686831657872813, 'recall': 0.9676, 'f1-score': 0.9665409196903274, 'support': 5000.0}} precision
+0.0 {'0.0': {'precision': 0.9617328519855596, 'recall': 0.9992498124531133, 'f1-score': 0.9801324503311257, 'support': 3999.0}, '1.0': {'precision': 0.9964497041420118, 'recall': 0.8411588411588412, 'f1-score': 0.9122426868905743, 'support': 1001.0}, 'accuracy': 0.9676, 'macro avg': {'precision': 0.9790912780637857, 'recall': 0.9202043268059772, 'f1-score': 0.9461875686108501, 'support': 5000.0}, 'weighted avg': {'precision': 0.9686831657872813, 'recall': 0.9676, 'f1-score': 0.9665409196903274, 'support': 5000.0}} recall
+0.0 {'0.0': {'precision': 0.9617328519855596, 'recall': 0.9992498124531133, 'f1-score': 0.9801324503311257, 'support': 3999.0}, '1.0': {'precision': 0.9964497041420118, 'recall': 0.8411588411588412, 'f1-score': 0.9122426868905743, 'support': 1001.0}, 'accuracy': 0.9676, 'macro avg': {'precision': 0.9790912780637857, 'recall': 0.9202043268059772, 'f1-score': 0.9461875686108501, 'support': 5000.0}, 'weighted avg': {'precision': 0.9686831657872813, 'recall': 0.9676, 'f1-score': 0.9665409196903274, 'support': 5000.0}} f1-score
+1.0 {'0.0': {'precision': 0.9617328519855596, 'recall': 0.9992498124531133, 'f1-score': 0.9801324503311257, 'support': 3999.0}, '1.0': {'precision': 0.9964497041420118, 'recall': 0.8411588411588412, 'f1-score': 0.9122426868905743, 'support': 1001.0}, 'accuracy': 0.9676, 'macro avg': {'precision': 0.9790912780637857, 'recall': 0.9202043268059772, 'f1-score': 0.9461875686108501, 'support': 5000.0}, 'weighted avg': {'precision': 0.9686831657872813, 'recall': 0.9676, 'f1-score': 0.9665409196903274, 'support': 5000.0}} precision
+1.0 {'0.0': {'precision': 0.9617328519855596, 'recall': 0.9992498124531133, 'f1-score': 0.9801324503311257, 'support': 3999.0}, '1.0': {'precision': 0.9964497041420118, 'recall': 0.8411588411588412, 'f1-score': 0.9122426868905743, 'support': 1001.0}, 'accuracy': 0.9676, 'macro avg': {'precision': 0.9790912780637857, 'recall': 0.9202043268059772, 'f1-score': 0.9461875686108501, 'support': 5000.0}, 'weighted avg': {'precision': 0.9686831657872813, 'recall': 0.9676, 'f1-score': 0.9665409196903274, 'support': 5000.0}} recall
+1.0 {'0.0': {'precision': 0.9617328519855596, 'recall': 0.9992498124531133, 'f1-score': 0.9801324503311257, 'support': 3999.0}, '1.0': {'precision': 0.9964497041420118, 'recall': 0.8411588411588412, 'f1-score': 0.9122426868905743, 'support': 1001.0}, 'accuracy': 0.9676, 'macro avg': {'precision': 0.9790912780637857, 'recall': 0.9202043268059772, 'f1-score': 0.9461875686108501, 'support': 5000.0}, 'weighted avg': {'precision': 0.9686831657872813, 'recall': 0.9676, 'f1-score': 0.9665409196903274, 'support': 5000.0}} f1-score
+Fold metrics: {'0.0': {'precision': 0.9910402097902098, 'recall': 1.0, 'f1-score': 0.9954999451212819, 'support': 4535.0}, '1.0': {'precision': 1.0, 'recall': 0.9118279569892473, 'f1-score': 0.953880764904387, 'support': 465.0}, 'accuracy': 0.9918, 'macro avg': {'precision': 0.9955201048951049, 'recall': 0.9559139784946237, 'f1-score': 0.9746903550128345, 'support': 5000.0}, 'weighted avg': {'precision': 0.9918734702797203, 'recall': 0.9918, 'f1-score': 0.9916293613611108, 'support': 5000.0}}
+Type: <class 'dict'>
+0.0 {'0.0': {'precision': 0.9910402097902098, 'recall': 1.0, 'f1-score': 0.9954999451212819, 'support': 4535.0}, '1.0': {'precision': 1.0, 'recall': 0.9118279569892473, 'f1-score': 0.953880764904387, 'support': 465.0}, 'accuracy': 0.9918, 'macro avg': {'precision': 0.9955201048951049, 'recall': 0.9559139784946237, 'f1-score': 0.9746903550128345, 'support': 5000.0}, 'weighted avg': {'precision': 0.9918734702797203, 'recall': 0.9918, 'f1-score': 0.9916293613611108, 'support': 5000.0}} precision
+0.0 {'0.0': {'precision': 0.9910402097902098, 'recall': 1.0, 'f1-score': 0.9954999451212819, 'support': 4535.0}, '1.0': {'precision': 1.0, 'recall': 0.9118279569892473, 'f1-score': 0.953880764904387, 'support': 465.0}, 'accuracy': 0.9918, 'macro avg': {'precision': 0.9955201048951049, 'recall': 0.9559139784946237, 'f1-score': 0.9746903550128345, 'support': 5000.0}, 'weighted avg': {'precision': 0.9918734702797203, 'recall': 0.9918, 'f1-score': 0.9916293613611108, 'support': 5000.0}} recall
+0.0 {'0.0': {'precision': 0.9910402097902098, 'recall': 1.0, 'f1-score': 0.9954999451212819, 'support': 4535.0}, '1.0': {'precision': 1.0, 'recall': 0.9118279569892473, 'f1-score': 0.953880764904387, 'support': 465.0}, 'accuracy': 0.9918, 'macro avg': {'precision': 0.9955201048951049, 'recall': 0.9559139784946237, 'f1-score': 0.9746903550128345, 'support': 5000.0}, 'weighted avg': {'precision': 0.9918734702797203, 'recall': 0.9918, 'f1-score': 0.9916293613611108, 'support': 5000.0}} f1-score
+1.0 {'0.0': {'precision': 0.9910402097902098, 'recall': 1.0, 'f1-score': 0.9954999451212819, 'support': 4535.0}, '1.0': {'precision': 1.0, 'recall': 0.9118279569892473, 'f1-score': 0.953880764904387, 'support': 465.0}, 'accuracy': 0.9918, 'macro avg': {'precision': 0.9955201048951049, 'recall': 0.9559139784946237, 'f1-score': 0.9746903550128345, 'support': 5000.0}, 'weighted avg': {'precision': 0.9918734702797203, 'recall': 0.9918, 'f1-score': 0.9916293613611108, 'support': 5000.0}} precision
+1.0 {'0.0': {'precision': 0.9910402097902098, 'recall': 1.0, 'f1-score': 0.9954999451212819, 'support': 4535.0}, '1.0': {'precision': 1.0, 'recall': 0.9118279569892473, 'f1-score': 0.953880764904387, 'support': 465.0}, 'accuracy': 0.9918, 'macro avg': {'precision': 0.9955201048951049, 'recall': 0.9559139784946237, 'f1-score': 0.9746903550128345, 'support': 5000.0}, 'weighted avg': {'precision': 0.9918734702797203, 'recall': 0.9918, 'f1-score': 0.9916293613611108, 'support': 5000.0}} recall
+1.0 {'0.0': {'precision': 0.9910402097902098, 'recall': 1.0, 'f1-score': 0.9954999451212819, 'support': 4535.0}, '1.0': {'precision': 1.0, 'recall': 0.9118279569892473, 'f1-score': 0.953880764904387, 'support': 465.0}, 'accuracy': 0.9918, 'macro avg': {'precision': 0.9955201048951049, 'recall': 0.9559139784946237, 'f1-score': 0.9746903550128345, 'support': 5000.0}, 'weighted avg': {'precision': 0.9918734702797203, 'recall': 0.9918, 'f1-score': 0.9916293613611108, 'support': 5000.0}} f1-score
+Fold metrics: {'0.0': {'precision': 0.9186142425075612, 'recall': 1.0, 'f1-score': 0.9575809687589567, 'support': 3341.0}, '1.0': {'precision': 1.0, 'recall': 0.8215792646172393, 'f1-score': 0.9020516214427532, 'support': 1659.0}, 'accuracy': 0.9408, 'macro avg': {'precision': 0.9593071212537806, 'recall': 0.9107896323086196, 'f1-score': 0.929816295100855, 'support': 5000.0}, 'weighted avg': {'precision': 0.9456180368435524, 'recall': 0.9408, 'f1-score': 0.9391563313194403, 'support': 5000.0}}
+Type: <class 'dict'>
+0.0 {'0.0': {'precision': 0.9186142425075612, 'recall': 1.0, 'f1-score': 0.9575809687589567, 'support': 3341.0}, '1.0': {'precision': 1.0, 'recall': 0.8215792646172393, 'f1-score': 0.9020516214427532, 'support': 1659.0}, 'accuracy': 0.9408, 'macro avg': {'precision': 0.9593071212537806, 'recall': 0.9107896323086196, 'f1-score': 0.929816295100855, 'support': 5000.0}, 'weighted avg': {'precision': 0.9456180368435524, 'recall': 0.9408, 'f1-score': 0.9391563313194403, 'support': 5000.0}} precision
+0.0 {'0.0': {'precision': 0.9186142425075612, 'recall': 1.0, 'f1-score': 0.9575809687589567, 'support': 3341.0}, '1.0': {'precision': 1.0, 'recall': 0.8215792646172393, 'f1-score': 0.9020516214427532, 'support': 1659.0}, 'accuracy': 0.9408, 'macro avg': {'precision': 0.9593071212537806, 'recall': 0.9107896323086196, 'f1-score': 0.929816295100855, 'support': 5000.0}, 'weighted avg': {'precision': 0.9456180368435524, 'recall': 0.9408, 'f1-score': 0.9391563313194403, 'support': 5000.0}} recall
+0.0 {'0.0': {'precision': 0.9186142425075612, 'recall': 1.0, 'f1-score': 0.9575809687589567, 'support': 3341.0}, '1.0': {'precision': 1.0, 'recall': 0.8215792646172393, 'f1-score': 0.9020516214427532, 'support': 1659.0}, 'accuracy': 0.9408, 'macro avg': {'precision': 0.9593071212537806, 'recall': 0.9107896323086196, 'f1-score': 0.929816295100855, 'support': 5000.0}, 'weighted avg': {'precision': 0.9456180368435524, 'recall': 0.9408, 'f1-score': 0.9391563313194403, 'support': 5000.0}} f1-score
+1.0 {'0.0': {'precision': 0.9186142425075612, 'recall': 1.0, 'f1-score': 0.9575809687589567, 'support': 3341.0}, '1.0': {'precision': 1.0, 'recall': 0.8215792646172393, 'f1-score': 0.9020516214427532, 'support': 1659.0}, 'accuracy': 0.9408, 'macro avg': {'precision': 0.9593071212537806, 'recall': 0.9107896323086196, 'f1-score': 0.929816295100855, 'support': 5000.0}, 'weighted avg': {'precision': 0.9456180368435524, 'recall': 0.9408, 'f1-score': 0.9391563313194403, 'support': 5000.0}} precision
+1.0 {'0.0': {'precision': 0.9186142425075612, 'recall': 1.0, 'f1-score': 0.9575809687589567, 'support': 3341.0}, '1.0': {'precision': 1.0, 'recall': 0.8215792646172393, 'f1-score': 0.9020516214427532, 'support': 1659.0}, 'accuracy': 0.9408, 'macro avg': {'precision': 0.9593071212537806, 'recall': 0.9107896323086196, 'f1-score': 0.929816295100855, 'support': 5000.0}, 'weighted avg': {'precision': 0.9456180368435524, 'recall': 0.9408, 'f1-score': 0.9391563313194403, 'support': 5000.0}} recall
+1.0 {'0.0': {'precision': 0.9186142425075612, 'recall': 1.0, 'f1-score': 0.9575809687589567, 'support': 3341.0}, '1.0': {'precision': 1.0, 'recall': 0.8215792646172393, 'f1-score': 0.9020516214427532, 'support': 1659.0}, 'accuracy': 0.9408, 'macro avg': {'precision': 0.9593071212537806, 'recall': 0.9107896323086196, 'f1-score': 0.929816295100855, 'support': 5000.0}, 'weighted avg': {'precision': 0.9456180368435524, 'recall': 0.9408, 'f1-score': 0.9391563313194403, 'support': 5000.0}} f1-score
+Fold metrics: {'0.0': {'precision': 0.9900485998611432, 'recall': 0.9997663005375088, 'f1-score': 0.9948837209302326, 'support': 4279.0}, '1.0': {'precision': 0.9985272459499264, 'recall': 0.9403606102635229, 'f1-score': 0.9685714285714286, 'support': 721.0}, 'accuracy': 0.9912, 'macro avg': {'precision': 0.9942879229055348, 'recall': 0.9700634554005159, 'f1-score': 0.9817275747508306, 'support': 5000.0}, 'weighted avg': {'precision': 0.9912712206271459, 'recall': 0.9912, 'f1-score': 0.991089488372093, 'support': 5000.0}}
+Type: <class 'dict'>
+0.0 {'0.0': {'precision': 0.9900485998611432, 'recall': 0.9997663005375088, 'f1-score': 0.9948837209302326, 'support': 4279.0}, '1.0': {'precision': 0.9985272459499264, 'recall': 0.9403606102635229, 'f1-score': 0.9685714285714286, 'support': 721.0}, 'accuracy': 0.9912, 'macro avg': {'precision': 0.9942879229055348, 'recall': 0.9700634554005159, 'f1-score': 0.9817275747508306, 'support': 5000.0}, 'weighted avg': {'precision': 0.9912712206271459, 'recall': 0.9912, 'f1-score': 0.991089488372093, 'support': 5000.0}} precision
+0.0 {'0.0': {'precision': 0.9900485998611432, 'recall': 0.9997663005375088, 'f1-score': 0.9948837209302326, 'support': 4279.0}, '1.0': {'precision': 0.9985272459499264, 'recall': 0.9403606102635229, 'f1-score': 0.9685714285714286, 'support': 721.0}, 'accuracy': 0.9912, 'macro avg': {'precision': 0.9942879229055348, 'recall': 0.9700634554005159, 'f1-score': 0.9817275747508306, 'support': 5000.0}, 'weighted avg': {'precision': 0.9912712206271459, 'recall': 0.9912, 'f1-score': 0.991089488372093, 'support': 5000.0}} recall
+0.0 {'0.0': {'precision': 0.9900485998611432, 'recall': 0.9997663005375088, 'f1-score': 0.9948837209302326, 'support': 4279.0}, '1.0': {'precision': 0.9985272459499264, 'recall': 0.9403606102635229, 'f1-score': 0.9685714285714286, 'support': 721.0}, 'accuracy': 0.9912, 'macro avg': {'precision': 0.9942879229055348, 'recall': 0.9700634554005159, 'f1-score': 0.9817275747508306, 'support': 5000.0}, 'weighted avg': {'precision': 0.9912712206271459, 'recall': 0.9912, 'f1-score': 0.991089488372093, 'support': 5000.0}} f1-score
+1.0 {'0.0': {'precision': 0.9900485998611432, 'recall': 0.9997663005375088, 'f1-score': 0.9948837209302326, 'support': 4279.0}, '1.0': {'precision': 0.9985272459499264, 'recall': 0.9403606102635229, 'f1-score': 0.9685714285714286, 'support': 721.0}, 'accuracy': 0.9912, 'macro avg': {'precision': 0.9942879229055348, 'recall': 0.9700634554005159, 'f1-score': 0.9817275747508306, 'support': 5000.0}, 'weighted avg': {'precision': 0.9912712206271459, 'recall': 0.9912, 'f1-score': 0.991089488372093, 'support': 5000.0}} precision
+1.0 {'0.0': {'precision': 0.9900485998611432, 'recall': 0.9997663005375088, 'f1-score': 0.9948837209302326, 'support': 4279.0}, '1.0': {'precision': 0.9985272459499264, 'recall': 0.9403606102635229, 'f1-score': 0.9685714285714286, 'support': 721.0}, 'accuracy': 0.9912, 'macro avg': {'precision': 0.9942879229055348, 'recall': 0.9700634554005159, 'f1-score': 0.9817275747508306, 'support': 5000.0}, 'weighted avg': {'precision': 0.9912712206271459, 'recall': 0.9912, 'f1-score': 0.991089488372093, 'support': 5000.0}} recall
+1.0 {'0.0': {'precision': 0.9900485998611432, 'recall': 0.9997663005375088, 'f1-score': 0.9948837209302326, 'support': 4279.0}, '1.0': {'precision': 0.9985272459499264, 'recall': 0.9403606102635229, 'f1-score': 0.9685714285714286, 'support': 721.0}, 'accuracy': 0.9912, 'macro avg': {'precision': 0.9942879229055348, 'recall': 0.9700634554005159, 'f1-score': 0.9817275747508306, 'support': 5000.0}, 'weighted avg': {'precision': 0.9912712206271459, 'recall': 0.9912, 'f1-score': 0.991089488372093, 'support': 5000.0}} f1-score
+Fold metrics: {'0.0': {'precision': 0.9965614886731392, 'recall': 1.0, 'f1-score': 0.9982777834059366, 'support': 4927.0}, '1.0': {'precision': 1.0, 'recall': 0.7671232876712328, 'f1-score': 0.8682170542635659, 'support': 73.0}, 'accuracy': 0.9966, 'macro avg': {'precision': 0.9982807443365695, 'recall': 0.8835616438356164, 'f1-score': 0.9332474188347513, 'support': 5000.0}, 'weighted avg': {'precision': 0.9966116909385113, 'recall': 0.9966, 'f1-score': 0.996378896760458, 'support': 5000.0}}
+Type: <class 'dict'>
+0.0 {'0.0': {'precision': 0.9965614886731392, 'recall': 1.0, 'f1-score': 0.9982777834059366, 'support': 4927.0}, '1.0': {'precision': 1.0, 'recall': 0.7671232876712328, 'f1-score': 0.8682170542635659, 'support': 73.0}, 'accuracy': 0.9966, 'macro avg': {'precision': 0.9982807443365695, 'recall': 0.8835616438356164, 'f1-score': 0.9332474188347513, 'support': 5000.0}, 'weighted avg': {'precision': 0.9966116909385113, 'recall': 0.9966, 'f1-score': 0.996378896760458, 'support': 5000.0}} precision
+0.0 {'0.0': {'precision': 0.9965614886731392, 'recall': 1.0, 'f1-score': 0.9982777834059366, 'support': 4927.0}, '1.0': {'precision': 1.0, 'recall': 0.7671232876712328, 'f1-score': 0.8682170542635659, 'support': 73.0}, 'accuracy': 0.9966, 'macro avg': {'precision': 0.9982807443365695, 'recall': 0.8835616438356164, 'f1-score': 0.9332474188347513, 'support': 5000.0}, 'weighted avg': {'precision': 0.9966116909385113, 'recall': 0.9966, 'f1-score': 0.996378896760458, 'support': 5000.0}} recall
+0.0 {'0.0': {'precision': 0.9965614886731392, 'recall': 1.0, 'f1-score': 0.9982777834059366, 'support': 4927.0}, '1.0': {'precision': 1.0, 'recall': 0.7671232876712328, 'f1-score': 0.8682170542635659, 'support': 73.0}, 'accuracy': 0.9966, 'macro avg': {'precision': 0.9982807443365695, 'recall': 0.8835616438356164, 'f1-score': 0.9332474188347513, 'support': 5000.0}, 'weighted avg': {'precision': 0.9966116909385113, 'recall': 0.9966, 'f1-score': 0.996378896760458, 'support': 5000.0}} f1-score
+1.0 {'0.0': {'precision': 0.9965614886731392, 'recall': 1.0, 'f1-score': 0.9982777834059366, 'support': 4927.0}, '1.0': {'precision': 1.0, 'recall': 0.7671232876712328, 'f1-score': 0.8682170542635659, 'support': 73.0}, 'accuracy': 0.9966, 'macro avg': {'precision': 0.9982807443365695, 'recall': 0.8835616438356164, 'f1-score': 0.9332474188347513, 'support': 5000.0}, 'weighted avg': {'precision': 0.9966116909385113, 'recall': 0.9966, 'f1-score': 0.996378896760458, 'support': 5000.0}} precision
+1.0 {'0.0': {'precision': 0.9965614886731392, 'recall': 1.0, 'f1-score': 0.9982777834059366, 'support': 4927.0}, '1.0': {'precision': 1.0, 'recall': 0.7671232876712328, 'f1-score': 0.8682170542635659, 'support': 73.0}, 'accuracy': 0.9966, 'macro avg': {'precision': 0.9982807443365695, 'recall': 0.8835616438356164, 'f1-score': 0.9332474188347513, 'support': 5000.0}, 'weighted avg': {'precision': 0.9966116909385113, 'recall': 0.9966, 'f1-score': 0.996378896760458, 'support': 5000.0}} recall
+1.0 {'0.0': {'precision': 0.9965614886731392, 'recall': 1.0, 'f1-score': 0.9982777834059366, 'support': 4927.0}, '1.0': {'precision': 1.0, 'recall': 0.7671232876712328, 'f1-score': 0.8682170542635659, 'support': 73.0}, 'accuracy': 0.9966, 'macro avg': {'precision': 0.9982807443365695, 'recall': 0.8835616438356164, 'f1-score': 0.9332474188347513, 'support': 5000.0}, 'weighted avg': {'precision': 0.9966116909385113, 'recall': 0.9966, 'f1-score': 0.996378896760458, 'support': 5000.0}} f1-score
+Fold metrics: {'0.0': {'precision': 0.9926359107645657, 'recall': 1.0, 'f1-score': 0.9963043478260869, 'support': 4583.0}, '1.0': {'precision': 1.0, 'recall': 0.9184652278177458, 'f1-score': 0.9574999999999999, 'support': 417.0}, 'accuracy': 0.9932, 'macro avg': {'precision': 0.9963179553822828, 'recall': 0.9592326139088729, 'f1-score': 0.9769021739130435, 'support': 5000.0}, 'weighted avg': {'precision': 0.9932500758068008, 'recall': 0.9932, 'f1-score': 0.9930680652173912, 'support': 5000.0}}
+Type: <class 'dict'>
+0.0 {'0.0': {'precision': 0.9926359107645657, 'recall': 1.0, 'f1-score': 0.9963043478260869, 'support': 4583.0}, '1.0': {'precision': 1.0, 'recall': 0.9184652278177458, 'f1-score': 0.9574999999999999, 'support': 417.0}, 'accuracy': 0.9932, 'macro avg': {'precision': 0.9963179553822828, 'recall': 0.9592326139088729, 'f1-score': 0.9769021739130435, 'support': 5000.0}, 'weighted avg': {'precision': 0.9932500758068008, 'recall': 0.9932, 'f1-score': 0.9930680652173912, 'support': 5000.0}} precision
+0.0 {'0.0': {'precision': 0.9926359107645657, 'recall': 1.0, 'f1-score': 0.9963043478260869, 'support': 4583.0}, '1.0': {'precision': 1.0, 'recall': 0.9184652278177458, 'f1-score': 0.9574999999999999, 'support': 417.0}, 'accuracy': 0.9932, 'macro avg': {'precision': 0.9963179553822828, 'recall': 0.9592326139088729, 'f1-score': 0.9769021739130435, 'support': 5000.0}, 'weighted avg': {'precision': 0.9932500758068008, 'recall': 0.9932, 'f1-score': 0.9930680652173912, 'support': 5000.0}} recall
+0.0 {'0.0': {'precision': 0.9926359107645657, 'recall': 1.0, 'f1-score': 0.9963043478260869, 'support': 4583.0}, '1.0': {'precision': 1.0, 'recall': 0.9184652278177458, 'f1-score': 0.9574999999999999, 'support': 417.0}, 'accuracy': 0.9932, 'macro avg': {'precision': 0.9963179553822828, 'recall': 0.9592326139088729, 'f1-score': 0.9769021739130435, 'support': 5000.0}, 'weighted avg': {'precision': 0.9932500758068008, 'recall': 0.9932, 'f1-score': 0.9930680652173912, 'support': 5000.0}} f1-score
+1.0 {'0.0': {'precision': 0.9926359107645657, 'recall': 1.0, 'f1-score': 0.9963043478260869, 'support': 4583.0}, '1.0': {'precision': 1.0, 'recall': 0.9184652278177458, 'f1-score': 0.9574999999999999, 'support': 417.0}, 'accuracy': 0.9932, 'macro avg': {'precision': 0.9963179553822828, 'recall': 0.9592326139088729, 'f1-score': 0.9769021739130435, 'support': 5000.0}, 'weighted avg': {'precision': 0.9932500758068008, 'recall': 0.9932, 'f1-score': 0.9930680652173912, 'support': 5000.0}} precision
+1.0 {'0.0': {'precision': 0.9926359107645657, 'recall': 1.0, 'f1-score': 0.9963043478260869, 'support': 4583.0}, '1.0': {'precision': 1.0, 'recall': 0.9184652278177458, 'f1-score': 0.9574999999999999, 'support': 417.0}, 'accuracy': 0.9932, 'macro avg': {'precision': 0.9963179553822828, 'recall': 0.9592326139088729, 'f1-score': 0.9769021739130435, 'support': 5000.0}, 'weighted avg': {'precision': 0.9932500758068008, 'recall': 0.9932, 'f1-score': 0.9930680652173912, 'support': 5000.0}} recall
+1.0 {'0.0': {'precision': 0.9926359107645657, 'recall': 1.0, 'f1-score': 0.9963043478260869, 'support': 4583.0}, '1.0': {'precision': 1.0, 'recall': 0.9184652278177458, 'f1-score': 0.9574999999999999, 'support': 417.0}, 'accuracy': 0.9932, 'macro avg': {'precision': 0.9963179553822828, 'recall': 0.9592326139088729, 'f1-score': 0.9769021739130435, 'support': 5000.0}, 'weighted avg': {'precision': 0.9932500758068008, 'recall': 0.9932, 'f1-score': 0.9930680652173912, 'support': 5000.0}} f1-score
+Fold metrics: {'0.0': {'precision': 0.9921517331589274, 'recall': 1.0, 'f1-score': 0.9960604070912672, 'support': 4551.0}, '1.0': {'precision': 1.0, 'recall': 0.9198218262806236, 'f1-score': 0.9582366589327146, 'support': 449.0}, 'accuracy': 0.9928, 'macro avg': {'precision': 0.9960758665794637, 'recall': 0.9599109131403119, 'f1-score': 0.9771485330119909, 'support': 5000.0}, 'weighted avg': {'precision': 0.9928565075212556, 'recall': 0.9928, 'f1-score': 0.9926638345066291, 'support': 5000.0}}
+Type: <class 'dict'>
+0.0 {'0.0': {'precision': 0.9921517331589274, 'recall': 1.0, 'f1-score': 0.9960604070912672, 'support': 4551.0}, '1.0': {'precision': 1.0, 'recall': 0.9198218262806236, 'f1-score': 0.9582366589327146, 'support': 449.0}, 'accuracy': 0.9928, 'macro avg': {'precision': 0.9960758665794637, 'recall': 0.9599109131403119, 'f1-score': 0.9771485330119909, 'support': 5000.0}, 'weighted avg': {'precision': 0.9928565075212556, 'recall': 0.9928, 'f1-score': 0.9926638345066291, 'support': 5000.0}} precision
+0.0 {'0.0': {'precision': 0.9921517331589274, 'recall': 1.0, 'f1-score': 0.9960604070912672, 'support': 4551.0}, '1.0': {'precision': 1.0, 'recall': 0.9198218262806236, 'f1-score': 0.9582366589327146, 'support': 449.0}, 'accuracy': 0.9928, 'macro avg': {'precision': 0.9960758665794637, 'recall': 0.9599109131403119, 'f1-score': 0.9771485330119909, 'support': 5000.0}, 'weighted avg': {'precision': 0.9928565075212556, 'recall': 0.9928, 'f1-score': 0.9926638345066291, 'support': 5000.0}} recall
+0.0 {'0.0': {'precision': 0.9921517331589274, 'recall': 1.0, 'f1-score': 0.9960604070912672, 'support': 4551.0}, '1.0': {'precision': 1.0, 'recall': 0.9198218262806236, 'f1-score': 0.9582366589327146, 'support': 449.0}, 'accuracy': 0.9928, 'macro avg': {'precision': 0.9960758665794637, 'recall': 0.9599109131403119, 'f1-score': 0.9771485330119909, 'support': 5000.0}, 'weighted avg': {'precision': 0.9928565075212556, 'recall': 0.9928, 'f1-score': 0.9926638345066291, 'support': 5000.0}} f1-score
+1.0 {'0.0': {'precision': 0.9921517331589274, 'recall': 1.0, 'f1-score': 0.9960604070912672, 'support': 4551.0}, '1.0': {'precision': 1.0, 'recall': 0.9198218262806236, 'f1-score': 0.9582366589327146, 'support': 449.0}, 'accuracy': 0.9928, 'macro avg': {'precision': 0.9960758665794637, 'recall': 0.9599109131403119, 'f1-score': 0.9771485330119909, 'support': 5000.0}, 'weighted avg': {'precision': 0.9928565075212556, 'recall': 0.9928, 'f1-score': 0.9926638345066291, 'support': 5000.0}} precision
+1.0 {'0.0': {'precision': 0.9921517331589274, 'recall': 1.0, 'f1-score': 0.9960604070912672, 'support': 4551.0}, '1.0': {'precision': 1.0, 'recall': 0.9198218262806236, 'f1-score': 0.9582366589327146, 'support': 449.0}, 'accuracy': 0.9928, 'macro avg': {'precision': 0.9960758665794637, 'recall': 0.9599109131403119, 'f1-score': 0.9771485330119909, 'support': 5000.0}, 'weighted avg': {'precision': 0.9928565075212556, 'recall': 0.9928, 'f1-score': 0.9926638345066291, 'support': 5000.0}} recall
+1.0 {'0.0': {'precision': 0.9921517331589274, 'recall': 1.0, 'f1-score': 0.9960604070912672, 'support': 4551.0}, '1.0': {'precision': 1.0, 'recall': 0.9198218262806236, 'f1-score': 0.9582366589327146, 'support': 449.0}, 'accuracy': 0.9928, 'macro avg': {'precision': 0.9960758665794637, 'recall': 0.9599109131403119, 'f1-score': 0.9771485330119909, 'support': 5000.0}, 'weighted avg': {'precision': 0.9928565075212556, 'recall': 0.9928, 'f1-score': 0.9926638345066291, 'support': 5000.0}} f1-score
+Fold metrics: {'0.0': {'precision': 0.9922826969943136, 'recall': 0.9997953754859832, 'f1-score': 0.9960248700438283, 'support': 4887.0}, '1.0': {'precision': 0.9868421052631579, 'recall': 0.6637168141592921, 'f1-score': 0.7936507936507936, 'support': 113.0}, 'accuracy': 0.9922, 'macro avg': {'precision': 0.9895624011287357, 'recall': 0.8317560948226377, 'f1-score': 0.8948378318473109, 'support': 5000.0}, 'weighted avg': {'precision': 0.9921597396211895, 'recall': 0.9922, 'f1-score': 0.9914512159173456, 'support': 5000.0}}
+Type: <class 'dict'>
+0.0 {'0.0': {'precision': 0.9922826969943136, 'recall': 0.9997953754859832, 'f1-score': 0.9960248700438283, 'support': 4887.0}, '1.0': {'precision': 0.9868421052631579, 'recall': 0.6637168141592921, 'f1-score': 0.7936507936507936, 'support': 113.0}, 'accuracy': 0.9922, 'macro avg': {'precision': 0.9895624011287357, 'recall': 0.8317560948226377, 'f1-score': 0.8948378318473109, 'support': 5000.0}, 'weighted avg': {'precision': 0.9921597396211895, 'recall': 0.9922, 'f1-score': 0.9914512159173456, 'support': 5000.0}} precision
+0.0 {'0.0': {'precision': 0.9922826969943136, 'recall': 0.9997953754859832, 'f1-score': 0.9960248700438283, 'support': 4887.0}, '1.0': {'precision': 0.9868421052631579, 'recall': 0.6637168141592921, 'f1-score': 0.7936507936507936, 'support': 113.0}, 'accuracy': 0.9922, 'macro avg': {'precision': 0.9895624011287357, 'recall': 0.8317560948226377, 'f1-score': 0.8948378318473109, 'support': 5000.0}, 'weighted avg': {'precision': 0.9921597396211895, 'recall': 0.9922, 'f1-score': 0.9914512159173456, 'support': 5000.0}} recall
+0.0 {'0.0': {'precision': 0.9922826969943136, 'recall': 0.9997953754859832, 'f1-score': 0.9960248700438283, 'support': 4887.0}, '1.0': {'precision': 0.9868421052631579, 'recall': 0.6637168141592921, 'f1-score': 0.7936507936507936, 'support': 113.0}, 'accuracy': 0.9922, 'macro avg': {'precision': 0.9895624011287357, 'recall': 0.8317560948226377, 'f1-score': 0.8948378318473109, 'support': 5000.0}, 'weighted avg': {'precision': 0.9921597396211895, 'recall': 0.9922, 'f1-score': 0.9914512159173456, 'support': 5000.0}} f1-score
+1.0 {'0.0': {'precision': 0.9922826969943136, 'recall': 0.9997953754859832, 'f1-score': 0.9960248700438283, 'support': 4887.0}, '1.0': {'precision': 0.9868421052631579, 'recall': 0.6637168141592921, 'f1-score': 0.7936507936507936, 'support': 113.0}, 'accuracy': 0.9922, 'macro avg': {'precision': 0.9895624011287357, 'recall': 0.8317560948226377, 'f1-score': 0.8948378318473109, 'support': 5000.0}, 'weighted avg': {'precision': 0.9921597396211895, 'recall': 0.9922, 'f1-score': 0.9914512159173456, 'support': 5000.0}} precision
+1.0 {'0.0': {'precision': 0.9922826969943136, 'recall': 0.9997953754859832, 'f1-score': 0.9960248700438283, 'support': 4887.0}, '1.0': {'precision': 0.9868421052631579, 'recall': 0.6637168141592921, 'f1-score': 0.7936507936507936, 'support': 113.0}, 'accuracy': 0.9922, 'macro avg': {'precision': 0.9895624011287357, 'recall': 0.8317560948226377, 'f1-score': 0.8948378318473109, 'support': 5000.0}, 'weighted avg': {'precision': 0.9921597396211895, 'recall': 0.9922, 'f1-score': 0.9914512159173456, 'support': 5000.0}} recall
+1.0 {'0.0': {'precision': 0.9922826969943136, 'recall': 0.9997953754859832, 'f1-score': 0.9960248700438283, 'support': 4887.0}, '1.0': {'precision': 0.9868421052631579, 'recall': 0.6637168141592921, 'f1-score': 0.7936507936507936, 'support': 113.0}, 'accuracy': 0.9922, 'macro avg': {'precision': 0.9895624011287357, 'recall': 0.8317560948226377, 'f1-score': 0.8948378318473109, 'support': 5000.0}, 'weighted avg': {'precision': 0.9921597396211895, 'recall': 0.9922, 'f1-score': 0.9914512159173456, 'support': 5000.0}} f1-score
+Fold metrics: {'0.0': {'precision': 0.9697104677060133, 'recall': 0.9952, 'f1-score': 0.9822899041173153, 'support': 4375.0}, '1.0': {'precision': 0.9588235294117647, 'recall': 0.7824, 'f1-score': 0.8616740088105727, 'support': 625.0}, 'accuracy': 0.9686, 'macro avg': {'precision': 0.964266998558889, 'recall': 0.8888, 'f1-score': 0.921981956463944, 'support': 5000.0}, 'weighted avg': {'precision': 0.9683496004192322, 'recall': 0.9686, 'f1-score': 0.9672129172039724, 'support': 5000.0}}
+Type: <class 'dict'>
+0.0 {'0.0': {'precision': 0.9697104677060133, 'recall': 0.9952, 'f1-score': 0.9822899041173153, 'support': 4375.0}, '1.0': {'precision': 0.9588235294117647, 'recall': 0.7824, 'f1-score': 0.8616740088105727, 'support': 625.0}, 'accuracy': 0.9686, 'macro avg': {'precision': 0.964266998558889, 'recall': 0.8888, 'f1-score': 0.921981956463944, 'support': 5000.0}, 'weighted avg': {'precision': 0.9683496004192322, 'recall': 0.9686, 'f1-score': 0.9672129172039724, 'support': 5000.0}} precision
+0.0 {'0.0': {'precision': 0.9697104677060133, 'recall': 0.9952, 'f1-score': 0.9822899041173153, 'support': 4375.0}, '1.0': {'precision': 0.9588235294117647, 'recall': 0.7824, 'f1-score': 0.8616740088105727, 'support': 625.0}, 'accuracy': 0.9686, 'macro avg': {'precision': 0.964266998558889, 'recall': 0.8888, 'f1-score': 0.921981956463944, 'support': 5000.0}, 'weighted avg': {'precision': 0.9683496004192322, 'recall': 0.9686, 'f1-score': 0.9672129172039724, 'support': 5000.0}} recall
+0.0 {'0.0': {'precision': 0.9697104677060133, 'recall': 0.9952, 'f1-score': 0.9822899041173153, 'support': 4375.0}, '1.0': {'precision': 0.9588235294117647, 'recall': 0.7824, 'f1-score': 0.8616740088105727, 'support': 625.0}, 'accuracy': 0.9686, 'macro avg': {'precision': 0.964266998558889, 'recall': 0.8888, 'f1-score': 0.921981956463944, 'support': 5000.0}, 'weighted avg': {'precision': 0.9683496004192322, 'recall': 0.9686, 'f1-score': 0.9672129172039724, 'support': 5000.0}} f1-score
+1.0 {'0.0': {'precision': 0.9697104677060133, 'recall': 0.9952, 'f1-score': 0.9822899041173153, 'support': 4375.0}, '1.0': {'precision': 0.9588235294117647, 'recall': 0.7824, 'f1-score': 0.8616740088105727, 'support': 625.0}, 'accuracy': 0.9686, 'macro avg': {'precision': 0.964266998558889, 'recall': 0.8888, 'f1-score': 0.921981956463944, 'support': 5000.0}, 'weighted avg': {'precision': 0.9683496004192322, 'recall': 0.9686, 'f1-score': 0.9672129172039724, 'support': 5000.0}} precision
+1.0 {'0.0': {'precision': 0.9697104677060133, 'recall': 0.9952, 'f1-score': 0.9822899041173153, 'support': 4375.0}, '1.0': {'precision': 0.9588235294117647, 'recall': 0.7824, 'f1-score': 0.8616740088105727, 'support': 625.0}, 'accuracy': 0.9686, 'macro avg': {'precision': 0.964266998558889, 'recall': 0.8888, 'f1-score': 0.921981956463944, 'support': 5000.0}, 'weighted avg': {'precision': 0.9683496004192322, 'recall': 0.9686, 'f1-score': 0.9672129172039724, 'support': 5000.0}} recall
+1.0 {'0.0': {'precision': 0.9697104677060133, 'recall': 0.9952, 'f1-score': 0.9822899041173153, 'support': 4375.0}, '1.0': {'precision': 0.9588235294117647, 'recall': 0.7824, 'f1-score': 0.8616740088105727, 'support': 625.0}, 'accuracy': 0.9686, 'macro avg': {'precision': 0.964266998558889, 'recall': 0.8888, 'f1-score': 0.921981956463944, 'support': 5000.0}, 'weighted avg': {'precision': 0.9683496004192322, 'recall': 0.9686, 'f1-score': 0.9672129172039724, 'support': 5000.0}} f1-score
+Fold metrics: {'0.0': {'precision': 0.992195967916757, 'recall': 0.9934881701758194, 'f1-score': 0.9928416485900217, 'support': 4607.0}, '1.0': {'precision': 0.9224806201550387, 'recall': 0.9083969465648855, 'f1-score': 0.9153846153846152, 'support': 393.0}, 'accuracy': 0.9868, 'macro avg': {'precision': 0.9573382940358979, 'recall': 0.9509425583703524, 'f1-score': 0.9541131319873184, 'support': 5000.0}, 'weighted avg': {'precision': 0.9867163415826861, 'recall': 0.9868, 'f1-score': 0.9867535257800768, 'support': 5000.0}}
+Type: <class 'dict'>
+0.0 {'0.0': {'precision': 0.992195967916757, 'recall': 0.9934881701758194, 'f1-score': 0.9928416485900217, 'support': 4607.0}, '1.0': {'precision': 0.9224806201550387, 'recall': 0.9083969465648855, 'f1-score': 0.9153846153846152, 'support': 393.0}, 'accuracy': 0.9868, 'macro avg': {'precision': 0.9573382940358979, 'recall': 0.9509425583703524, 'f1-score': 0.9541131319873184, 'support': 5000.0}, 'weighted avg': {'precision': 0.9867163415826861, 'recall': 0.9868, 'f1-score': 0.9867535257800768, 'support': 5000.0}} precision
+0.0 {'0.0': {'precision': 0.992195967916757, 'recall': 0.9934881701758194, 'f1-score': 0.9928416485900217, 'support': 4607.0}, '1.0': {'precision': 0.9224806201550387, 'recall': 0.9083969465648855, 'f1-score': 0.9153846153846152, 'support': 393.0}, 'accuracy': 0.9868, 'macro avg': {'precision': 0.9573382940358979, 'recall': 0.9509425583703524, 'f1-score': 0.9541131319873184, 'support': 5000.0}, 'weighted avg': {'precision': 0.9867163415826861, 'recall': 0.9868, 'f1-score': 0.9867535257800768, 'support': 5000.0}} recall
+0.0 {'0.0': {'precision': 0.992195967916757, 'recall': 0.9934881701758194, 'f1-score': 0.9928416485900217, 'support': 4607.0}, '1.0': {'precision': 0.9224806201550387, 'recall': 0.9083969465648855, 'f1-score': 0.9153846153846152, 'support': 393.0}, 'accuracy': 0.9868, 'macro avg': {'precision': 0.9573382940358979, 'recall': 0.9509425583703524, 'f1-score': 0.9541131319873184, 'support': 5000.0}, 'weighted avg': {'precision': 0.9867163415826861, 'recall': 0.9868, 'f1-score': 0.9867535257800768, 'support': 5000.0}} f1-score
+1.0 {'0.0': {'precision': 0.992195967916757, 'recall': 0.9934881701758194, 'f1-score': 0.9928416485900217, 'support': 4607.0}, '1.0': {'precision': 0.9224806201550387, 'recall': 0.9083969465648855, 'f1-score': 0.9153846153846152, 'support': 393.0}, 'accuracy': 0.9868, 'macro avg': {'precision': 0.9573382940358979, 'recall': 0.9509425583703524, 'f1-score': 0.9541131319873184, 'support': 5000.0}, 'weighted avg': {'precision': 0.9867163415826861, 'recall': 0.9868, 'f1-score': 0.9867535257800768, 'support': 5000.0}} precision
+1.0 {'0.0': {'precision': 0.992195967916757, 'recall': 0.9934881701758194, 'f1-score': 0.9928416485900217, 'support': 4607.0}, '1.0': {'precision': 0.9224806201550387, 'recall': 0.9083969465648855, 'f1-score': 0.9153846153846152, 'support': 393.0}, 'accuracy': 0.9868, 'macro avg': {'precision': 0.9573382940358979, 'recall': 0.9509425583703524, 'f1-score': 0.9541131319873184, 'support': 5000.0}, 'weighted avg': {'precision': 0.9867163415826861, 'recall': 0.9868, 'f1-score': 0.9867535257800768, 'support': 5000.0}} recall
+1.0 {'0.0': {'precision': 0.992195967916757, 'recall': 0.9934881701758194, 'f1-score': 0.9928416485900217, 'support': 4607.0}, '1.0': {'precision': 0.9224806201550387, 'recall': 0.9083969465648855, 'f1-score': 0.9153846153846152, 'support': 393.0}, 'accuracy': 0.9868, 'macro avg': {'precision': 0.9573382940358979, 'recall': 0.9509425583703524, 'f1-score': 0.9541131319873184, 'support': 5000.0}, 'weighted avg': {'precision': 0.9867163415826861, 'recall': 0.9868, 'f1-score': 0.9867535257800768, 'support': 5000.0}} f1-score
+Fold metrics: {'0.0': {'precision': 0.9949367088607595, 'recall': 0.9993642720915448, 'f1-score': 0.9971455756422454, 'support': 4719.0}, '1.0': {'precision': 0.9884615384615385, 'recall': 0.9145907473309609, 'f1-score': 0.9500924214417745, 'support': 281.0}, 'accuracy': 0.9946, 'macro avg': {'precision': 0.991699123661149, 'recall': 0.9569775097112528, 'f1-score': 0.97361899854201, 'support': 5000.0}, 'weighted avg': {'precision': 0.9945728042843232, 'recall': 0.9946, 'f1-score': 0.9945011883761788, 'support': 5000.0}}
+Type: <class 'dict'>
+0.0 {'0.0': {'precision': 0.9949367088607595, 'recall': 0.9993642720915448, 'f1-score': 0.9971455756422454, 'support': 4719.0}, '1.0': {'precision': 0.9884615384615385, 'recall': 0.9145907473309609, 'f1-score': 0.9500924214417745, 'support': 281.0}, 'accuracy': 0.9946, 'macro avg': {'precision': 0.991699123661149, 'recall': 0.9569775097112528, 'f1-score': 0.97361899854201, 'support': 5000.0}, 'weighted avg': {'precision': 0.9945728042843232, 'recall': 0.9946, 'f1-score': 0.9945011883761788, 'support': 5000.0}} precision
+0.0 {'0.0': {'precision': 0.9949367088607595, 'recall': 0.9993642720915448, 'f1-score': 0.9971455756422454, 'support': 4719.0}, '1.0': {'precision': 0.9884615384615385, 'recall': 0.9145907473309609, 'f1-score': 0.9500924214417745, 'support': 281.0}, 'accuracy': 0.9946, 'macro avg': {'precision': 0.991699123661149, 'recall': 0.9569775097112528, 'f1-score': 0.97361899854201, 'support': 5000.0}, 'weighted avg': {'precision': 0.9945728042843232, 'recall': 0.9946, 'f1-score': 0.9945011883761788, 'support': 5000.0}} recall
+0.0 {'0.0': {'precision': 0.9949367088607595, 'recall': 0.9993642720915448, 'f1-score': 0.9971455756422454, 'support': 4719.0}, '1.0': {'precision': 0.9884615384615385, 'recall': 0.9145907473309609, 'f1-score': 0.9500924214417745, 'support': 281.0}, 'accuracy': 0.9946, 'macro avg': {'precision': 0.991699123661149, 'recall': 0.9569775097112528, 'f1-score': 0.97361899854201, 'support': 5000.0}, 'weighted avg': {'precision': 0.9945728042843232, 'recall': 0.9946, 'f1-score': 0.9945011883761788, 'support': 5000.0}} f1-score
+1.0 {'0.0': {'precision': 0.9949367088607595, 'recall': 0.9993642720915448, 'f1-score': 0.9971455756422454, 'support': 4719.0}, '1.0': {'precision': 0.9884615384615385, 'recall': 0.9145907473309609, 'f1-score': 0.9500924214417745, 'support': 281.0}, 'accuracy': 0.9946, 'macro avg': {'precision': 0.991699123661149, 'recall': 0.9569775097112528, 'f1-score': 0.97361899854201, 'support': 5000.0}, 'weighted avg': {'precision': 0.9945728042843232, 'recall': 0.9946, 'f1-score': 0.9945011883761788, 'support': 5000.0}} precision
+1.0 {'0.0': {'precision': 0.9949367088607595, 'recall': 0.9993642720915448, 'f1-score': 0.9971455756422454, 'support': 4719.0}, '1.0': {'precision': 0.9884615384615385, 'recall': 0.9145907473309609, 'f1-score': 0.9500924214417745, 'support': 281.0}, 'accuracy': 0.9946, 'macro avg': {'precision': 0.991699123661149, 'recall': 0.9569775097112528, 'f1-score': 0.97361899854201, 'support': 5000.0}, 'weighted avg': {'precision': 0.9945728042843232, 'recall': 0.9946, 'f1-score': 0.9945011883761788, 'support': 5000.0}} recall
+1.0 {'0.0': {'precision': 0.9949367088607595, 'recall': 0.9993642720915448, 'f1-score': 0.9971455756422454, 'support': 4719.0}, '1.0': {'precision': 0.9884615384615385, 'recall': 0.9145907473309609, 'f1-score': 0.9500924214417745, 'support': 281.0}, 'accuracy': 0.9946, 'macro avg': {'precision': 0.991699123661149, 'recall': 0.9569775097112528, 'f1-score': 0.97361899854201, 'support': 5000.0}, 'weighted avg': {'precision': 0.9945728042843232, 'recall': 0.9946, 'f1-score': 0.9945011883761788, 'support': 5000.0}} f1-score
+Fold metrics: {'0.0': {'precision': 1.0, 'recall': 0.9996, 'f1-score': 0.9997999599919984, 'support': 5000.0}, '1.0': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, 'accuracy': 0.9996, 'macro avg': {'precision': 0.5, 'recall': 0.4998, 'f1-score': 0.4998999799959992, 'support': 5000.0}, 'weighted avg': {'precision': 1.0, 'recall': 0.9996, 'f1-score': 0.9997999599919983, 'support': 5000.0}}
+Type: <class 'dict'>
+0.0 {'0.0': {'precision': 1.0, 'recall': 0.9996, 'f1-score': 0.9997999599919984, 'support': 5000.0}, '1.0': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, 'accuracy': 0.9996, 'macro avg': {'precision': 0.5, 'recall': 0.4998, 'f1-score': 0.4998999799959992, 'support': 5000.0}, 'weighted avg': {'precision': 1.0, 'recall': 0.9996, 'f1-score': 0.9997999599919983, 'support': 5000.0}} precision
+0.0 {'0.0': {'precision': 1.0, 'recall': 0.9996, 'f1-score': 0.9997999599919984, 'support': 5000.0}, '1.0': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, 'accuracy': 0.9996, 'macro avg': {'precision': 0.5, 'recall': 0.4998, 'f1-score': 0.4998999799959992, 'support': 5000.0}, 'weighted avg': {'precision': 1.0, 'recall': 0.9996, 'f1-score': 0.9997999599919983, 'support': 5000.0}} recall
+0.0 {'0.0': {'precision': 1.0, 'recall': 0.9996, 'f1-score': 0.9997999599919984, 'support': 5000.0}, '1.0': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, 'accuracy': 0.9996, 'macro avg': {'precision': 0.5, 'recall': 0.4998, 'f1-score': 0.4998999799959992, 'support': 5000.0}, 'weighted avg': {'precision': 1.0, 'recall': 0.9996, 'f1-score': 0.9997999599919983, 'support': 5000.0}} f1-score
+1.0 {'0.0': {'precision': 1.0, 'recall': 0.9996, 'f1-score': 0.9997999599919984, 'support': 5000.0}, '1.0': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, 'accuracy': 0.9996, 'macro avg': {'precision': 0.5, 'recall': 0.4998, 'f1-score': 0.4998999799959992, 'support': 5000.0}, 'weighted avg': {'precision': 1.0, 'recall': 0.9996, 'f1-score': 0.9997999599919983, 'support': 5000.0}} precision
+1.0 {'0.0': {'precision': 1.0, 'recall': 0.9996, 'f1-score': 0.9997999599919984, 'support': 5000.0}, '1.0': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, 'accuracy': 0.9996, 'macro avg': {'precision': 0.5, 'recall': 0.4998, 'f1-score': 0.4998999799959992, 'support': 5000.0}, 'weighted avg': {'precision': 1.0, 'recall': 0.9996, 'f1-score': 0.9997999599919983, 'support': 5000.0}} recall
+1.0 {'0.0': {'precision': 1.0, 'recall': 0.9996, 'f1-score': 0.9997999599919984, 'support': 5000.0}, '1.0': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, 'accuracy': 0.9996, 'macro avg': {'precision': 0.5, 'recall': 0.4998, 'f1-score': 0.4998999799959992, 'support': 5000.0}, 'weighted avg': {'precision': 1.0, 'recall': 0.9996, 'f1-score': 0.9997999599919983, 'support': 5000.0}} f1-score
+Fold metrics: {'0.0': {'precision': 0.9955300127713921, 'recall': 0.99957255823894, 'f1-score': 0.9975471899328144, 'support': 4679.0}, '1.0': {'precision': 0.9933774834437086, 'recall': 0.9345794392523364, 'f1-score': 0.9630818619582665, 'support': 321.0}, 'accuracy': 0.9954, 'macro avg': {'precision': 0.9944537481075504, 'recall': 0.9670759987456382, 'f1-score': 0.9803145259455405, 'support': 5000.0}, 'weighted avg': {'precision': 0.9953918203885547, 'recall': 0.9954, 'f1-score': 0.9953345158768485, 'support': 5000.0}}
+Type: <class 'dict'>
+0.0 {'0.0': {'precision': 0.9955300127713921, 'recall': 0.99957255823894, 'f1-score': 0.9975471899328144, 'support': 4679.0}, '1.0': {'precision': 0.9933774834437086, 'recall': 0.9345794392523364, 'f1-score': 0.9630818619582665, 'support': 321.0}, 'accuracy': 0.9954, 'macro avg': {'precision': 0.9944537481075504, 'recall': 0.9670759987456382, 'f1-score': 0.9803145259455405, 'support': 5000.0}, 'weighted avg': {'precision': 0.9953918203885547, 'recall': 0.9954, 'f1-score': 0.9953345158768485, 'support': 5000.0}} precision
+0.0 {'0.0': {'precision': 0.9955300127713921, 'recall': 0.99957255823894, 'f1-score': 0.9975471899328144, 'support': 4679.0}, '1.0': {'precision': 0.9933774834437086, 'recall': 0.9345794392523364, 'f1-score': 0.9630818619582665, 'support': 321.0}, 'accuracy': 0.9954, 'macro avg': {'precision': 0.9944537481075504, 'recall': 0.9670759987456382, 'f1-score': 0.9803145259455405, 'support': 5000.0}, 'weighted avg': {'precision': 0.9953918203885547, 'recall': 0.9954, 'f1-score': 0.9953345158768485, 'support': 5000.0}} recall
+0.0 {'0.0': {'precision': 0.9955300127713921, 'recall': 0.99957255823894, 'f1-score': 0.9975471899328144, 'support': 4679.0}, '1.0': {'precision': 0.9933774834437086, 'recall': 0.9345794392523364, 'f1-score': 0.9630818619582665, 'support': 321.0}, 'accuracy': 0.9954, 'macro avg': {'precision': 0.9944537481075504, 'recall': 0.9670759987456382, 'f1-score': 0.9803145259455405, 'support': 5000.0}, 'weighted avg': {'precision': 0.9953918203885547, 'recall': 0.9954, 'f1-score': 0.9953345158768485, 'support': 5000.0}} f1-score
+1.0 {'0.0': {'precision': 0.9955300127713921, 'recall': 0.99957255823894, 'f1-score': 0.9975471899328144, 'support': 4679.0}, '1.0': {'precision': 0.9933774834437086, 'recall': 0.9345794392523364, 'f1-score': 0.9630818619582665, 'support': 321.0}, 'accuracy': 0.9954, 'macro avg': {'precision': 0.9944537481075504, 'recall': 0.9670759987456382, 'f1-score': 0.9803145259455405, 'support': 5000.0}, 'weighted avg': {'precision': 0.9953918203885547, 'recall': 0.9954, 'f1-score': 0.9953345158768485, 'support': 5000.0}} precision
+1.0 {'0.0': {'precision': 0.9955300127713921, 'recall': 0.99957255823894, 'f1-score': 0.9975471899328144, 'support': 4679.0}, '1.0': {'precision': 0.9933774834437086, 'recall': 0.9345794392523364, 'f1-score': 0.9630818619582665, 'support': 321.0}, 'accuracy': 0.9954, 'macro avg': {'precision': 0.9944537481075504, 'recall': 0.9670759987456382, 'f1-score': 0.9803145259455405, 'support': 5000.0}, 'weighted avg': {'precision': 0.9953918203885547, 'recall': 0.9954, 'f1-score': 0.9953345158768485, 'support': 5000.0}} recall
+1.0 {'0.0': {'precision': 0.9955300127713921, 'recall': 0.99957255823894, 'f1-score': 0.9975471899328144, 'support': 4679.0}, '1.0': {'precision': 0.9933774834437086, 'recall': 0.9345794392523364, 'f1-score': 0.9630818619582665, 'support': 321.0}, 'accuracy': 0.9954, 'macro avg': {'precision': 0.9944537481075504, 'recall': 0.9670759987456382, 'f1-score': 0.9803145259455405, 'support': 5000.0}, 'weighted avg': {'precision': 0.9953918203885547, 'recall': 0.9954, 'f1-score': 0.9953345158768485, 'support': 5000.0}} f1-score
+Fold metrics: {'0.0': {'precision': 0.9909830657576424, 'recall': 0.9995563442768411, 'f1-score': 0.9952512424075097, 'support': 4508.0}, '1.0': {'precision': 0.9955849889624724, 'recall': 0.9166666666666666, 'f1-score': 0.9544973544973545, 'support': 492.0}, 'accuracy': 0.9914, 'macro avg': {'precision': 0.9932840273600574, 'recall': 0.9581115054717539, 'f1-score': 0.9748742984524321, 'support': 5000.0}, 'weighted avg': {'precision': 0.9914358950009977, 'recall': 0.9914, 'f1-score': 0.9912410598371505, 'support': 5000.0}}
+Type: <class 'dict'>
+0.0 {'0.0': {'precision': 0.9909830657576424, 'recall': 0.9995563442768411, 'f1-score': 0.9952512424075097, 'support': 4508.0}, '1.0': {'precision': 0.9955849889624724, 'recall': 0.9166666666666666, 'f1-score': 0.9544973544973545, 'support': 492.0}, 'accuracy': 0.9914, 'macro avg': {'precision': 0.9932840273600574, 'recall': 0.9581115054717539, 'f1-score': 0.9748742984524321, 'support': 5000.0}, 'weighted avg': {'precision': 0.9914358950009977, 'recall': 0.9914, 'f1-score': 0.9912410598371505, 'support': 5000.0}} precision
+0.0 {'0.0': {'precision': 0.9909830657576424, 'recall': 0.9995563442768411, 'f1-score': 0.9952512424075097, 'support': 4508.0}, '1.0': {'precision': 0.9955849889624724, 'recall': 0.9166666666666666, 'f1-score': 0.9544973544973545, 'support': 492.0}, 'accuracy': 0.9914, 'macro avg': {'precision': 0.9932840273600574, 'recall': 0.9581115054717539, 'f1-score': 0.9748742984524321, 'support': 5000.0}, 'weighted avg': {'precision': 0.9914358950009977, 'recall': 0.9914, 'f1-score': 0.9912410598371505, 'support': 5000.0}} recall
+0.0 {'0.0': {'precision': 0.9909830657576424, 'recall': 0.9995563442768411, 'f1-score': 0.9952512424075097, 'support': 4508.0}, '1.0': {'precision': 0.9955849889624724, 'recall': 0.9166666666666666, 'f1-score': 0.9544973544973545, 'support': 492.0}, 'accuracy': 0.9914, 'macro avg': {'precision': 0.9932840273600574, 'recall': 0.9581115054717539, 'f1-score': 0.9748742984524321, 'support': 5000.0}, 'weighted avg': {'precision': 0.9914358950009977, 'recall': 0.9914, 'f1-score': 0.9912410598371505, 'support': 5000.0}} f1-score
+1.0 {'0.0': {'precision': 0.9909830657576424, 'recall': 0.9995563442768411, 'f1-score': 0.9952512424075097, 'support': 4508.0}, '1.0': {'precision': 0.9955849889624724, 'recall': 0.9166666666666666, 'f1-score': 0.9544973544973545, 'support': 492.0}, 'accuracy': 0.9914, 'macro avg': {'precision': 0.9932840273600574, 'recall': 0.9581115054717539, 'f1-score': 0.9748742984524321, 'support': 5000.0}, 'weighted avg': {'precision': 0.9914358950009977, 'recall': 0.9914, 'f1-score': 0.9912410598371505, 'support': 5000.0}} precision
+1.0 {'0.0': {'precision': 0.9909830657576424, 'recall': 0.9995563442768411, 'f1-score': 0.9952512424075097, 'support': 4508.0}, '1.0': {'precision': 0.9955849889624724, 'recall': 0.9166666666666666, 'f1-score': 0.9544973544973545, 'support': 492.0}, 'accuracy': 0.9914, 'macro avg': {'precision': 0.9932840273600574, 'recall': 0.9581115054717539, 'f1-score': 0.9748742984524321, 'support': 5000.0}, 'weighted avg': {'precision': 0.9914358950009977, 'recall': 0.9914, 'f1-score': 0.9912410598371505, 'support': 5000.0}} recall
+1.0 {'0.0': {'precision': 0.9909830657576424, 'recall': 0.9995563442768411, 'f1-score': 0.9952512424075097, 'support': 4508.0}, '1.0': {'precision': 0.9955849889624724, 'recall': 0.9166666666666666, 'f1-score': 0.9544973544973545, 'support': 492.0}, 'accuracy': 0.9914, 'macro avg': {'precision': 0.9932840273600574, 'recall': 0.9581115054717539, 'f1-score': 0.9748742984524321, 'support': 5000.0}, 'weighted avg': {'precision': 0.9914358950009977, 'recall': 0.9914, 'f1-score': 0.9912410598371505, 'support': 5000.0}} f1-score
+Fold metrics: {'0.0': {'precision': 0.9928209459459459, 'recall': 0.9995748299319728, 'f1-score': 0.9961864406779661, 'support': 4704.0}, '1.0': {'precision': 0.9924242424242424, 'recall': 0.8851351351351351, 'f1-score': 0.9357142857142857, 'support': 296.0}, 'accuracy': 0.9928, 'macro avg': {'precision': 0.9926225941850941, 'recall': 0.942354982533554, 'f1-score': 0.9659503631961259, 'support': 5000.0}, 'weighted avg': {'precision': 0.9927974610974613, 'recall': 0.9928, 'f1-score': 0.9926064891041164, 'support': 5000.0}}
+Type: <class 'dict'>
+0.0 {'0.0': {'precision': 0.9928209459459459, 'recall': 0.9995748299319728, 'f1-score': 0.9961864406779661, 'support': 4704.0}, '1.0': {'precision': 0.9924242424242424, 'recall': 0.8851351351351351, 'f1-score': 0.9357142857142857, 'support': 296.0}, 'accuracy': 0.9928, 'macro avg': {'precision': 0.9926225941850941, 'recall': 0.942354982533554, 'f1-score': 0.9659503631961259, 'support': 5000.0}, 'weighted avg': {'precision': 0.9927974610974613, 'recall': 0.9928, 'f1-score': 0.9926064891041164, 'support': 5000.0}} precision
+0.0 {'0.0': {'precision': 0.9928209459459459, 'recall': 0.9995748299319728, 'f1-score': 0.9961864406779661, 'support': 4704.0}, '1.0': {'precision': 0.9924242424242424, 'recall': 0.8851351351351351, 'f1-score': 0.9357142857142857, 'support': 296.0}, 'accuracy': 0.9928, 'macro avg': {'precision': 0.9926225941850941, 'recall': 0.942354982533554, 'f1-score': 0.9659503631961259, 'support': 5000.0}, 'weighted avg': {'precision': 0.9927974610974613, 'recall': 0.9928, 'f1-score': 0.9926064891041164, 'support': 5000.0}} recall
+0.0 {'0.0': {'precision': 0.9928209459459459, 'recall': 0.9995748299319728, 'f1-score': 0.9961864406779661, 'support': 4704.0}, '1.0': {'precision': 0.9924242424242424, 'recall': 0.8851351351351351, 'f1-score': 0.9357142857142857, 'support': 296.0}, 'accuracy': 0.9928, 'macro avg': {'precision': 0.9926225941850941, 'recall': 0.942354982533554, 'f1-score': 0.9659503631961259, 'support': 5000.0}, 'weighted avg': {'precision': 0.9927974610974613, 'recall': 0.9928, 'f1-score': 0.9926064891041164, 'support': 5000.0}} f1-score
+1.0 {'0.0': {'precision': 0.9928209459459459, 'recall': 0.9995748299319728, 'f1-score': 0.9961864406779661, 'support': 4704.0}, '1.0': {'precision': 0.9924242424242424, 'recall': 0.8851351351351351, 'f1-score': 0.9357142857142857, 'support': 296.0}, 'accuracy': 0.9928, 'macro avg': {'precision': 0.9926225941850941, 'recall': 0.942354982533554, 'f1-score': 0.9659503631961259, 'support': 5000.0}, 'weighted avg': {'precision': 0.9927974610974613, 'recall': 0.9928, 'f1-score': 0.9926064891041164, 'support': 5000.0}} precision
+1.0 {'0.0': {'precision': 0.9928209459459459, 'recall': 0.9995748299319728, 'f1-score': 0.9961864406779661, 'support': 4704.0}, '1.0': {'precision': 0.9924242424242424, 'recall': 0.8851351351351351, 'f1-score': 0.9357142857142857, 'support': 296.0}, 'accuracy': 0.9928, 'macro avg': {'precision': 0.9926225941850941, 'recall': 0.942354982533554, 'f1-score': 0.9659503631961259, 'support': 5000.0}, 'weighted avg': {'precision': 0.9927974610974613, 'recall': 0.9928, 'f1-score': 0.9926064891041164, 'support': 5000.0}} recall
+1.0 {'0.0': {'precision': 0.9928209459459459, 'recall': 0.9995748299319728, 'f1-score': 0.9961864406779661, 'support': 4704.0}, '1.0': {'precision': 0.9924242424242424, 'recall': 0.8851351351351351, 'f1-score': 0.9357142857142857, 'support': 296.0}, 'accuracy': 0.9928, 'macro avg': {'precision': 0.9926225941850941, 'recall': 0.942354982533554, 'f1-score': 0.9659503631961259, 'support': 5000.0}, 'weighted avg': {'precision': 0.9927974610974613, 'recall': 0.9928, 'f1-score': 0.9926064891041164, 'support': 5000.0}} f1-score
+Fold metrics: {'0.0': {'precision': 0.9877720207253886, 'recall': 0.999790224459828, 'f1-score': 0.9937447873227689, 'support': 4767.0}, '1.0': {'precision': 0.9942857142857143, 'recall': 0.7467811158798283, 'f1-score': 0.8529411764705883, 'support': 233.0}, 'accuracy': 0.988, 'macro avg': {'precision': 0.9910288675055514, 'recall': 0.8732856701698282, 'f1-score': 0.9233429818966786, 'support': 5000.0}, 'weighted avg': {'precision': 0.9880755588452997, 'recall': 0.988, 'f1-score': 0.9871833390570574, 'support': 5000.0}}
+Type: <class 'dict'>
+0.0 {'0.0': {'precision': 0.9877720207253886, 'recall': 0.999790224459828, 'f1-score': 0.9937447873227689, 'support': 4767.0}, '1.0': {'precision': 0.9942857142857143, 'recall': 0.7467811158798283, 'f1-score': 0.8529411764705883, 'support': 233.0}, 'accuracy': 0.988, 'macro avg': {'precision': 0.9910288675055514, 'recall': 0.8732856701698282, 'f1-score': 0.9233429818966786, 'support': 5000.0}, 'weighted avg': {'precision': 0.9880755588452997, 'recall': 0.988, 'f1-score': 0.9871833390570574, 'support': 5000.0}} precision
+0.0 {'0.0': {'precision': 0.9877720207253886, 'recall': 0.999790224459828, 'f1-score': 0.9937447873227689, 'support': 4767.0}, '1.0': {'precision': 0.9942857142857143, 'recall': 0.7467811158798283, 'f1-score': 0.8529411764705883, 'support': 233.0}, 'accuracy': 0.988, 'macro avg': {'precision': 0.9910288675055514, 'recall': 0.8732856701698282, 'f1-score': 0.9233429818966786, 'support': 5000.0}, 'weighted avg': {'precision': 0.9880755588452997, 'recall': 0.988, 'f1-score': 0.9871833390570574, 'support': 5000.0}} recall
+0.0 {'0.0': {'precision': 0.9877720207253886, 'recall': 0.999790224459828, 'f1-score': 0.9937447873227689, 'support': 4767.0}, '1.0': {'precision': 0.9942857142857143, 'recall': 0.7467811158798283, 'f1-score': 0.8529411764705883, 'support': 233.0}, 'accuracy': 0.988, 'macro avg': {'precision': 0.9910288675055514, 'recall': 0.8732856701698282, 'f1-score': 0.9233429818966786, 'support': 5000.0}, 'weighted avg': {'precision': 0.9880755588452997, 'recall': 0.988, 'f1-score': 0.9871833390570574, 'support': 5000.0}} f1-score
+1.0 {'0.0': {'precision': 0.9877720207253886, 'recall': 0.999790224459828, 'f1-score': 0.9937447873227689, 'support': 4767.0}, '1.0': {'precision': 0.9942857142857143, 'recall': 0.7467811158798283, 'f1-score': 0.8529411764705883, 'support': 233.0}, 'accuracy': 0.988, 'macro avg': {'precision': 0.9910288675055514, 'recall': 0.8732856701698282, 'f1-score': 0.9233429818966786, 'support': 5000.0}, 'weighted avg': {'precision': 0.9880755588452997, 'recall': 0.988, 'f1-score': 0.9871833390570574, 'support': 5000.0}} precision
+1.0 {'0.0': {'precision': 0.9877720207253886, 'recall': 0.999790224459828, 'f1-score': 0.9937447873227689, 'support': 4767.0}, '1.0': {'precision': 0.9942857142857143, 'recall': 0.7467811158798283, 'f1-score': 0.8529411764705883, 'support': 233.0}, 'accuracy': 0.988, 'macro avg': {'precision': 0.9910288675055514, 'recall': 0.8732856701698282, 'f1-score': 0.9233429818966786, 'support': 5000.0}, 'weighted avg': {'precision': 0.9880755588452997, 'recall': 0.988, 'f1-score': 0.9871833390570574, 'support': 5000.0}} recall
+1.0 {'0.0': {'precision': 0.9877720207253886, 'recall': 0.999790224459828, 'f1-score': 0.9937447873227689, 'support': 4767.0}, '1.0': {'precision': 0.9942857142857143, 'recall': 0.7467811158798283, 'f1-score': 0.8529411764705883, 'support': 233.0}, 'accuracy': 0.988, 'macro avg': {'precision': 0.9910288675055514, 'recall': 0.8732856701698282, 'f1-score': 0.9233429818966786, 'support': 5000.0}, 'weighted avg': {'precision': 0.9880755588452997, 'recall': 0.988, 'f1-score': 0.9871833390570574, 'support': 5000.0}} f1-score
+Fold metrics: {'0.0': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5000.0}, 'accuracy': 1.0, 'macro avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5000.0}, 'weighted avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5000.0}}
+Type: <class 'dict'>
+0.0 {'0.0': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5000.0}, 'accuracy': 1.0, 'macro avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5000.0}, 'weighted avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5000.0}} precision
+0.0 {'0.0': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5000.0}, 'accuracy': 1.0, 'macro avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5000.0}, 'weighted avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5000.0}} recall
+0.0 {'0.0': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5000.0}, 'accuracy': 1.0, 'macro avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5000.0}, 'weighted avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5000.0}} f1-score
+1.0 {'0.0': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5000.0}, 'accuracy': 1.0, 'macro avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5000.0}, 'weighted avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5000.0}} precision
