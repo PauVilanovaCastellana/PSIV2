@@ -1,0 +1,98 @@
+Class Distributions for Each Fold
+========================================
+Fold 1 - Test Patient: chb02
+Train: Clase 0: 19933, Clase 1: 3067
+Test: Clase 0: 778, Clase 1: 137
+----------------------------------------
+Fold 2 - Test Patient: chb05
+Train: Clase 0: 20029, Clase 1: 2886
+Test: Clase 0: 682, Clase 1: 318
+----------------------------------------
+Fold 3 - Test Patient: chb15
+Train: Clase 0: 19836, Clase 1: 3079
+Test: Clase 0: 875, Clase 1: 125
+----------------------------------------
+Fold 4 - Test Patient: chb22
+Train: Clase 0: 19816, Clase 1: 3099
+Test: Clase 0: 895, Clase 1: 105
+----------------------------------------
+Fold 5 - Test Patient: chb08
+Train: Clase 0: 20108, Clase 1: 2807
+Test: Clase 0: 603, Clase 1: 397
+----------------------------------------
+Fold 6 - Test Patient: chb17
+Train: Clase 0: 19875, Clase 1: 3040
+Test: Clase 0: 836, Clase 1: 164
+----------------------------------------
+Fold 7 - Test Patient: chb16
+Train: Clase 0: 19726, Clase 1: 3189
+Test: Clase 0: 985, Clase 1: 15
+----------------------------------------
+Fold 8 - Test Patient: chb03
+Train: Clase 0: 19805, Clase 1: 3110
+Test: Clase 0: 906, Clase 1: 94
+----------------------------------------
+Fold 9 - Test Patient: chb21
+Train: Clase 0: 19796, Clase 1: 3119
+Test: Clase 0: 915, Clase 1: 85
+----------------------------------------
+Fold 10 - Test Patient: chb14
+Train: Clase 0: 19755, Clase 1: 3160
+Test: Clase 0: 956, Clase 1: 44
+----------------------------------------
+Fold 11 - Test Patient: chb19
+Train: Clase 0: 19835, Clase 1: 3080
+Test: Clase 0: 876, Clase 1: 124
+----------------------------------------
+Fold 12 - Test Patient: chb24
+Train: Clase 0: 19793, Clase 1: 3122
+Test: Clase 0: 918, Clase 1: 82
+----------------------------------------
+Fold 13 - Test Patient: chb10
+Train: Clase 0: 19795, Clase 1: 3120
+Test: Clase 0: 916, Clase 1: 84
+----------------------------------------
+Fold 14 - Test Patient: chb06
+Train: Clase 0: 19744, Clase 1: 3171
+Test: Clase 0: 967, Clase 1: 33
+----------------------------------------
+Fold 15 - Test Patient: chb01
+Train: Clase 0: 19764, Clase 1: 3151
+Test: Clase 0: 947, Clase 1: 53
+----------------------------------------
+Fold 16 - Test Patient: chb11
+Train: Clase 0: 20259, Clase 1: 2656
+Test: Clase 0: 452, Clase 1: 548
+----------------------------------------
+Fold 17 - Test Patient: chb04
+Train: Clase 0: 19750, Clase 1: 3165
+Test: Clase 0: 961, Clase 1: 39
+----------------------------------------
+Fold 18 - Test Patient: chb20
+Train: Clase 0: 19789, Clase 1: 3126
+Test: Clase 0: 922, Clase 1: 78
+----------------------------------------
+Fold 19 - Test Patient: chb23
+Train: Clase 0: 19801, Clase 1: 3114
+Test: Clase 0: 910, Clase 1: 90
+----------------------------------------
+Fold 20 - Test Patient: chb09
+Train: Clase 0: 19763, Clase 1: 3152
+Test: Clase 0: 948, Clase 1: 52
+----------------------------------------
+Fold 21 - Test Patient: chb12
+Train: Clase 0: 19959, Clase 1: 2956
+Test: Clase 0: 752, Clase 1: 248
+----------------------------------------
+Fold 22 - Test Patient: chb13
+Train: Clase 0: 19802, Clase 1: 3113
+Test: Clase 0: 909, Clase 1: 91
+----------------------------------------
+Fold 23 - Test Patient: chb07
+Train: Clase 0: 19821, Clase 1: 3094
+Test: Clase 0: 890, Clase 1: 110
+----------------------------------------
+Fold 24 - Test Patient: chb18
+Train: Clase 0: 19799, Clase 1: 3116
+Test: Clase 0: 912, Clase 1: 88
+----------------------------------------
