@@ -170,7 +170,7 @@ if __name__ == "__main__":
     all_eeg_data, all_labels = prepare_sequence_data(patient_ids, patient_data, sequence_length=10)
 
     # Initialize KFold
-    skf = StratifiedKFold(n_splits=2, shuffle=True, random_state=42) # Folds
+    skf = StratifiedKFold(n_splits=10, shuffle=True, random_state=42) # Folds
 
     # Metrics initialization
     total_cm = np.zeros((2, 2))
